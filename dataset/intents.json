@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "Derechos del estudiante",
+      "patterns": [
+        "¿Cuáles son mis derechos como estudiante?",
+        "¿Qué beneficios tengo como alumno del TecNM?",
+        "¿Qué derechos tengo según el reglamento de estudiantes?"
+      ],
+      "responses": [
+        "Los estudiantes del TecNM tienen derecho a recibir una educación de calidad y una formación integral; a acceder a las instalaciones, servicios y programas de apoyo (como becas, actividades culturales y deportivas); a ser tratados con respeto y dignidad, sin discriminación; a participar en las sociedades de alumnos y en eventos académicos, deportivos y culturales; así como a expresar peticiones de manera respetuosa y a defender sus derechos conforme al reglamento."
+      ]
+    },
+    {
+      "tag": "Obligaciones del estudiante",
+      "patterns": [
+        "¿Qué obligaciones tengo como estudiante?",
+        "¿Cuáles son los deberes de un alumno en el TecNM?",
+        "¿Qué debo cumplir según el reglamento estudiantil?"
+      ],
+      "responses": [
+        "Como estudiante del TecNM debes cumplir con el reglamento y demás normativas académicas; asistir puntualmente a clases, tutorías y asesorías; mantener un comportamiento respetuoso y ético dentro y fuera del plantel; portar en todo momento tu credencial de estudiante y atender las indicaciones de las autoridades; cuidar y respetar las instalaciones y bienes del instituto; evitar prácticas indebidas (como el plagio, el acoso escolar o el sexting); actualizar tus datos personales cuando sea necesario; y realizar en tiempo y forma tus trámites académicos (inscripción, reinscripción, servicio social, actividades complementarias, residencia profesional y procesos de titulación)."
+      ]
+    },
+    {
+      "tag": "Proceso de inscripción y reinscripción",
+      "patterns": [
+        "¿Cómo es el proceso de inscripción en el TecNM?",
+        "¿Qué debo hacer para reinscribirme cada semestre?",
+        "¿En qué consiste la reinscripción de un estudiante?"
+      ],
+      "responses": [
+        "La inscripción es el trámite inicial para ingresar oficialmente al TecNM como estudiante, una vez que eres aceptado. Consiste en entregar la documentación requerida, llenar los formularios correspondientes y pagar las cuotas de inscripción, tras lo cual se te asigna un número de control y quedas inscrito en tu programa de estudios. La reinscripción se realiza al comienzo de cada semestre para mantener tu condición de estudiante activo; implica actualizar tu registro académico (seleccionar carga académica o materias a cursar) y cumplir con el pago de reinscripción dentro de las fechas establecidas. Tanto la inscripción como cada reinscripción deben efectuarse en los periodos y condiciones que indican el plan de estudios y la normatividad académica vigente del TecNM."
+      ]
+    },
+    {
+      "tag": "Procedimiento sancionador",
+      "patterns": [
+        "¿Qué procedimiento se sigue si un estudiante viola el reglamento?",
+        "¿Cómo sancionan a un alumno que comete una falta?",
+        "¿Cómo es el proceso sancionador en el TecNM?"
+      ],
+      "responses": [
+        "Cuando un estudiante incurre en una falta al reglamento, se activa un procedimiento sancionador. Primero se evalúa la gravedad de la falta considerando la conducta documentada, el historial académico del estudiante, las circunstancias del caso y si es reincidente. Cualquier miembro de la comunidad puede denunciar la falta por escrito al Director del plantel, quien remite el caso al Comité Académico. Este comité reúne y analiza las evidencias, revisa el expediente del estudiante y otorga al involucrado el derecho de audiencia para que presente por escrito su defensa y pruebas. Tras deliberar, el Comité Académico emite una recomendación de sanción acorde a la falta cometida, y el Director del plantel dicta la sanción definitiva, asegurando que sea proporcional y equitativa."
+      ]
+    },
+    {
+      "tag": "Recurso de revisión",
+      "patterns": [
+        "¿Qué puedo hacer si considero injusta una sanción?",
+        "¿Cómo apelar una sanción disciplinaria en el TecNM?",
+        "¿Existe algún recurso para revisar una sanción impuesta?"
+      ],
+      "responses": [
+        "Si un estudiante no está de acuerdo con una sanción disciplinaria, puede interponer un recurso de revisión. Este recurso es una apelación formal que debe presentarse por escrito dentro de los 10 días hábiles posteriores a la notificación de la sanción. El estudiante dirige el escrito de inconformidad a la misma autoridad que emitió la sanción (por ejemplo, la Dirección del plantel), y dicha autoridad lo turna al superior jerárquico correspondiente (la Dirección General del TecNM). La instancia superior revisará el caso, y emitirá una resolución que puede confirmar, modificar o revocar la sanción impugnada. Esta resolución se dicta en un plazo máximo de 30 días y es definitiva e inapelable."
+      ]
+    },
+    {
+      "tag": "Movilidad estudiantil",
+      "patterns": [
+        "¿Puedo estudiar en otro instituto o universidad temporalmente?",
+        "¿Qué es la movilidad estudiantil en el TecNM?",
+        "¿Cuáles son los requisitos para participar en movilidad académica?"
+      ],
+      "responses": [
+        "La movilidad estudiantil es un programa que permite a los estudiantes del TecNM cursar asignaturas o realizar estancias académicas en otra institución por un tiempo determinado sin dejar de pertenecer a su instituto de origen. Gracias a convenios, un alumno puede ir a otro Instituto Tecnológico o a una universidad nacional/extranjera durante uno o más semestres (hasta un máximo de tres semestres, consecutivos o alternos). Durante la movilidad, el estudiante sigue inscrito en su TecNM de origen y las materias cursadas en la institución receptora pueden ser revalidadas en su plan de estudios. Este programa fortalece la formación integral del estudiante y sus competencias profesionales al exponerse a distintos entornos académicos."
+      ]
+    },
+    {
+      "tag": "Convalidación y equivalencia de estudios",
+      "patterns": [
+        "¿Cómo puedo convalidar mis materias si me cambio de carrera?",
+        "Si vengo de otra universidad, ¿me pueden hacer equivalencia de estudios?",
+        "¿Qué diferencia hay entre convalidación y equivalencia de materias?"
+      ],
+      "responses": [
+        "El TecNM contempla dos procesos para reconocer estudios previos: la convalidación y la equivalencia. La **convalidación de estudios** aplica cuando un estudiante del TecNM cambia de plan de estudios (por ejemplo, cambia de carrera o de campus dentro del TecNM); este proceso permite que las asignaturas ya aprobadas en el plan anterior se reconozcan en el nuevo plan, siempre que sean equivalentes, evitando tener que cursarlas de nuevo. Por otro lado, la **equivalencia de estudios** se utiliza cuando el estudiante proviene de otra institución externa al TecNM (o posee un título previo) y desea continuar sus estudios en el TecNM; mediante la equivalencia, se determina qué materias cursadas en la otra institución pueden ser reconocidas oficialmente dentro del plan de estudios del TecNM. Ambos trámites requieren presentar la documentación académica (kárdex, programas de materias, etc.) y siguen los lineamientos establecidos para emitir un dictamen técnico que autorice qué materias son válidas."
+      ]
+    },
+    {
+      "tag": "Servicio social",
+      "patterns": [
+        "¿En qué consiste el servicio social en el TecNM?",
+        "¿Cuándo debo hacer mi servicio social?",
+        "¿Qué requisitos debo cumplir para liberar el servicio social?"
+      ],
+      "responses": [
+        "El servicio social es una actividad formativa de carácter obligatorio para todos los estudiantes del TecNM, orientada a retribuir a la sociedad parte de los beneficios de la educación recibida. Consiste en la realización de un trabajo temporal en instituciones públicas, comunidades o proyectos aprobados, aplicando los conocimientos y habilidades adquiridos durante la carrera en beneficio de la sociedad. Por normativa, el servicio social se puede iniciar una vez que el estudiante ha acreditado alrededor del 70% de los créditos de su plan de estudios. Tiene una duración mínima de 480 horas (generalmente cumplidas en un periodo de 6 a 12 meses, según el programa) durante las cuales el estudiante debe desempeñar las actividades asignadas y presentar informes periódicos. Al concluir satisfactoriamente el servicio social, el estudiante obtiene una carta de liberación, requisito indispensable para su titulación."
+      ]
+    },
+    {
+      "tag": "Actividades complementarias",
+      "patterns": [
+        "¿Qué son las actividades complementarias?",
+        "¿Cuántos créditos de actividades complementarias necesito cumplir?",
+        "¿Qué tipo de actividades complementarias puedo realizar?"
+      ],
+      "responses": [
+        "Las actividades complementarias son todas aquellas acciones extraacadémicas que el estudiante realiza para complementar su formación integral y desarrollar competencias profesionales. Forman parte del plan de estudios del TecNM como requisitos de egreso. En total, el estudiante debe acumular 5 créditos en actividades complementarias (lo que equivale a 100 horas de actividades efectivas verificables), preferentemente a lo largo de los primeros semestres. Estas actividades pueden incluir una amplia variedad de experiencias, tales como: participar en proyectos de investigación o desarrollo tecnológico, tomar cursos o talleres adicionales, involucrarse en programas de emprendimiento, deportes o actividades culturales, asistir a congresos o concursos académicos, realizar servicio comunitario, e incluso formar parte de programas de tutoría (ya sea como tutorado o como tutor de pares). Cada instituto ofrece y aprueba las actividades complementarias disponibles, asignándoles un valor en créditos, y el estudiante debe cumplir con las evidencias y requisitos de cada actividad para que sean acreditadas."
+      ]
+    },
+    {
+      "tag": "Residencias profesionales",
+      "patterns": [
+        "¿Qué es la residencia profesional?",
+        "¿Cuánto tiempo dura la residencia profesional?",
+        "¿En qué semestre se realiza la residencia profesional?"
+      ],
+      "responses": [
+        "La residencia profesional es una estrategia educativa y requisito de egreso en las carreras del TecNM que permite al estudiante integrar y aplicar sus conocimientos en un entorno laboral real. Consiste en el desarrollo de un proyecto profesional (teórico-práctico) en una empresa, organización o institución durante la etapa final de la carrera. El estudiante, ya sea de forma individual o en equipo, resuelve un problema o contribuye a un proyecto específico propuesto por la empresa o institución, bajo supervisión. La residencia profesional tiene una duración típica de un semestre (aproximadamente entre 4 y 6 meses, acumulando alrededor de 500 horas de trabajo práctico) y un valor curricular de 10 créditos. Por lo general, se realiza cuando el alumno ha cursado la mayor parte de la carrera (últimos semestres) y es parte de la titulación integral. Al finalizar, el estudiante elabora un informe de su proyecto y, de cumplir con los objetivos, acredita la residencia profesional, acercándose a la obtención de su título."
+      ]
+    },
+    {
+      "tag": "Titulación integral",
+      "patterns": [
+        "¿Qué es la titulación integral?",
+        "¿Cuáles son los requisitos para la titulación integral?",
+        "¿Cómo me puedo titular de manera integral en el TecNM?"
+      ],
+      "responses": [
+        "La titulación integral es el proceso mediante el cual el estudiante egresado del TecNM obtiene su título profesional acreditando de forma integral las competencias adquiridas durante su formación. A diferencia de modelos tradicionales que se enfocan solo en un examen final o tesis, la titulación integral abarca diversas opciones para demostrar los conocimientos, habilidades y actitudes del egresado. El TecNM establece que para iniciar el proceso de titulación integral el alumno debe haber cubierto el 100% de los créditos de su plan de estudios (es decir, haber aprobado todas sus materias, servicio social, residencia profesional y actividades complementarias). Existen varias modalidades de titulación integral, entre ellas: la realización de un proyecto integrador o proyecto de investigación, la elaboración de una tesis o tesina, la residencia profesional (con proyecto definido para titulación), desarrollo de prototipos o diseños tecnológicos, entre otras opciones avaladas por el instituto. El estudiante debe elegir una de las modalidades aprobadas, completar las actividades o entregables requeridos (por ejemplo, un informe o memoria del proyecto, y en su caso, presentar una defensa oral o examen profesional), y cumplir con el acto protocolario de titulación (toma de protesta). Cumplidos todos estos requisitos, se le otorga el título profesional. En esencia, la titulación integral asegura que el alumno se titule mediante la aplicación práctica de lo aprendido a lo largo de la carrera."
+      ]
+    },
+    {
+      "tag": "Tutorías y programas de acompañamiento",
+      "patterns": [
+        "¿Cómo funcionan las tutorías en el TecNM?",
+        "¿Qué es el programa de tutorías para estudiantes?",
+        "¿El TecNM ofrece acompañamiento académico a los alumnos?"
+      ],
+      "responses": [
+        "El TecNM cuenta con un Programa Institucional de Tutoría (PIT) para acompañar a los estudiantes durante su trayectoria académica. En este programa, a cada estudiante se le asigna un tutor (o tutores), que suele ser un profesor capacitado, quien le brinda asesoría personalizada o grupal de manera periódica. Las tutorías tienen como objetivo apoyar al alumno en su desarrollo académico, personal y profesional: el tutor orienta al estudiante en técnicas de estudio, resolución de dificultades académicas, elección de cargas académicas, y también puede canalizarlo a apoyos adicionales si tiene problemas personales o de adaptación. Este seguimiento cercano ayuda a mejorar el rendimiento académico, reducir la reprobación y el rezago, incrementar la permanencia de los estudiantes y lograr una titulación más oportuna. En resumen, las tutorías y programas de acompañamiento del TecNM ofrecen al estudiante una guía y apoyo continuo, fomentando su formación integral más allá de las clases formales."
+      ]
+    },
+    {
+      "tag": "Cursos de verano",
+      "patterns": [
+        "¿Qué son los cursos de verano en el TecNM?",
+        "¿Puedo adelantar materias en verano?",
+        "¿Cómo funcionan las materias de verano?"
+      ],
+      "responses": [
+        "Los cursos de verano son materias que el TecNM ofrece durante el receso de verano con el fin de que los estudiantes puedan adelantar o regularizar asignaturas fuera del semestre ordinario. Se imparten de forma intensiva y presencial a lo largo de unas seis semanas (generalmente incluyen las semanas previas y durante el periodo vacacional de verano, conforme al calendario oficial). Estos cursos siguen los mismos programas de estudio que en semestre normal, pero con una carga concentrada de horas diarias debido al periodo más corto. Por política institucional, los cursos de verano solo se imparten en modalidad presencial (no están disponibles en modalidades a distancia o mixta). Usualmente, un estudiante puede inscribir una o dos asignaturas en este periodo, siempre que haya suficiente demanda y la institución lo autorice. Al aprobar un curso de verano, la calificación obtenida se registra en su historial académico como si hubiese cursado la materia en semestre regular."
+      ]
+    },
+    {
+      "tag": "Educación a distancia",
+      "patterns": [
+        "¿El TecNM tiene programas de educación a distancia?",
+        "¿Cómo funciona la modalidad a distancia en el TecNM?",
+        "¿Qué es la modalidad mixta o en línea en el TecNM?"
+      ],
+      "responses": [
+        "Sí, el TecNM ofrece la modalidad de educación a distancia en sus programas educativos. La educación a distancia abarca dos esquemas principales: la modalidad **no escolarizada a distancia** (completamente en línea) y la modalidad **mixta** (combina clases presenciales con actividades en línea). En estas modalidades, las asignaturas se imparten mediante plataformas y herramientas digitales, lo que permite a estudiantes cursar una carrera sin necesidad de asistir diariamente a un campus. El objetivo de la educación a distancia en el TecNM es ampliar la cobertura educativa, llevando programas de licenciatura de calidad a quienes no pueden acceder a la modalidad escolarizada tradicional, ya sea por razones geográficas, de trabajo u otras. A través de la tecnología, se busca garantizar que los estudiantes en línea o en modalidad mixta desarrollen las mismas competencias profesionales, manteniendo la equidad y la inclusión educativa. Los programas a distancia siguen planes de estudio equivalentes a los presenciales y cuentan con docentes-asesores que guían y evalúan el aprendizaje de forma virtual."
+      ]
+    }
+  ]
+}
