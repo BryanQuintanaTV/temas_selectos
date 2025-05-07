@@ -6,7 +6,7 @@ from nltk_utils import bag_of_words, tokenize
 # from train import input_size, hidden_size, output_size
 import nltk
 
-nltk.download('punkt', download_dir='nltk_data')
+# nltk.download('punkt', download_dir='./nltk_data')
 nltk.data.path.append("./nltk_data")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
