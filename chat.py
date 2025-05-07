@@ -5,7 +5,7 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 # from train import input_size, hidden_size, output_size
 import nltk
-nltk.download("punkt")
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -28,6 +28,12 @@ model.eval()
 
 bot_name = "Bot"
 print("Hola, estoy para ayudarte con cualquier duda sobre el tec")
+
+
+def downloadntlk():
+    nltk.download("punkt")
+    return 1
+
 
 # Función principal para obtener respuesta
 def get_response(sentence):

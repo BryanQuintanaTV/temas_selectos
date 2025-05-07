@@ -4,13 +4,15 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.shortcuts import render, get_object_or_404
 import json
-from chat import get_response
+from chat import get_response, downloadntlk
 from django.views.decorators.csrf import csrf_exempt
 from django.http import StreamingHttpResponse
 import time
 
 # Create your views here.
 
+
+stat = downloadntlk()
 # Class with the actions that endpoints are going to do
 # {url}/api/v1/chat/
 class ItemList(APIView):
