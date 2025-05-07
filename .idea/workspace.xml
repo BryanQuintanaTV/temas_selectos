@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6611e5-5091-4c0d-8997-a805d089a0be" name="Changes" comment="Added Tokenizer">
-      <change beforePath="$PROJECT_DIR$/chatbot_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,24 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.chat (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.chat.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nltk_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bryan/OneDrive/Desktop/School/Eight_semester/temas_selectos_desarrollo_sw/chatbot/temas_selectos&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.chat (1).executor": "Run",
+    "Python.chat (2).executor": "Run",
+    "Python.chat.executor": "Run",
+    "Python.nltk_utils.executor": "Run",
+    "Python.train.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/bryan/OneDrive/Desktop/School/Eight_semester/temas_selectos_desarrollo_sw/chatbot/temas_selectos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bryan\OneDrive\Desktop\School\Eight_semester\temas_selectos_desarrollo_sw\chatbot\temas_selectos\chatbot_back" />
@@ -67,7 +69,7 @@
       <recent name="C:\Users\bryan\OneDrive\Desktop\School\Eight_semester\temas_selectos_desarrollo_sw\chatbot\temas_selectos\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.chat (1)">
+  <component name="RunManager" selected="Python.chat (2)">
     <configuration name="chat (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="temas_selectos" />
       <option name="ENV_FILES" value="" />
@@ -83,6 +85,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chatbot_back/chat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chat (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="temas_selectos" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chat (2)" />
         <item itemvalue="Python.chat (1)" />
         <item itemvalue="Python.chat" />
         <item itemvalue="Python.train" />
@@ -210,7 +236,7 @@
       <workItem from="1745820686557" duration="671000" />
       <workItem from="1745946886631" duration="1360000" />
       <workItem from="1745961754548" duration="97000" />
-      <workItem from="1746573598423" duration="3456000" />
+      <workItem from="1746573598423" duration="4074000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tokenizer">
       <option name="closed" value="true" />
