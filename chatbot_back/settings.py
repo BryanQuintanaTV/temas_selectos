@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-c6vae3&ad6%94^e6(@0iryb#fxgy+1q8qs3p+0tbvk&r^9r@)w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['apichat.bryanquintana.com']
 
 
 # Application definition
