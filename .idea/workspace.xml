@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6611e5-5091-4c0d-8997-a805d089a0be" name="Changes" comment="Added Tokenizer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +236,7 @@
       <workItem from="1745946886631" duration="1360000" />
       <workItem from="1745961754548" duration="97000" />
       <workItem from="1746573598423" duration="4074000" />
-      <workItem from="1746580277270" duration="1134000" />
+      <workItem from="1746580277270" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tokenizer">
       <option name="closed" value="true" />
