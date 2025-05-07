@@ -3,12 +3,9 @@ Django==4.2.4
 djangorestframework==3.14.0
 
 # Chatbot Y ML
-torch==2.1.2
-numpy==1.26.2
-nltk==3.8.1
+torch==2.2.0
+numpy
+nltk
 
 # CORS para frontend en VITE
 django-cors-headers==4.3.1
-
-# Utilidades adicionales
-requests==2.31.0
