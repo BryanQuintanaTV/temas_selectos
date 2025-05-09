@@ -50,7 +50,7 @@ def get_response(sentence):
     prob = probs[0][predicted.item()]
 
     # Retornar respuesta
-    if prob.item() > 0.75:
+    if prob.item() > 0.95:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 return random.choice(intent["responses"])
