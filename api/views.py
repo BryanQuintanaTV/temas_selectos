@@ -8,6 +8,8 @@ from chat import get_response
 from django.views.decorators.csrf import csrf_exempt
 from django.http import StreamingHttpResponse
 import time
+from .models import Report
+from django.utils.dateparse import parse_datetime
 
 # Create your views here.
 # Class with the actions that endpoints are going to do
@@ -47,3 +49,26 @@ class ItemList(APIView):
         response = StreamingHttpResponse(event_stream(), content_type='text/event-stream')
         response['Cache-Control'] = 'no-cache'
         return response
+
+class ItemReport(APIView):
+
+    # POST {url}/api/v1/report/
+    @csrf_exempt
+    def post(self, request):
+
+        try:
+            data = json.loads(request.body)
+
+            Report.objects.create(
+                message_send=data['message_send'],
+                message_receive=data['message_receive'],
+                date=parse_datetime(data['date']),
+                dataset_version=data['dataset_version'],
+                message_report=data['message_report'],
+            )
+
+            return JsonResponse({"message": "Reporte guardado en la base de datos"}, status=201)
+
+        except Exception as e:
+            print("Error al guardar:", e)
+            return JsonResponse({"error": "Error al guardar el reporte"}, status=500)

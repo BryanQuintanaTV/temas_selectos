@@ -1,0 +1,11 @@
+{
+  "logs": [
+    {
+      "message_send": "Message sent by user",
+      "message_receive" : "Message received by chatbot",
+      "date": "Date generated log",
+      "dataset_version" : "Version of the dataset used in the trained chatbot",
+      "type": "successful / Not Understood"
+    }
+  ]
+}
