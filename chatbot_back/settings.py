@@ -37,6 +37,11 @@ CORS_ALLOWED_ORIGINS = [
     "https://chatbot.bryanquintana.com",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://apichat.bryanquintana.com",
+    "https://chatbot.bryanquintana.com",
+]
+
 CORS_ALLOW_HEADERS = [
     "accept",
     "accept-encoding",
@@ -77,6 +82,11 @@ MIDDLEWARE = [
 ]
 
 # CORS_ALLOW_ALL_ORIGINS = True
+
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
 
 ROOT_URLCONF = 'chatbot_back.urls'
 

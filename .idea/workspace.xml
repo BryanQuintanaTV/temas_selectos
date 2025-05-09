@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca6611e5-5091-4c0d-8997-a805d089a0be" name="Changes" comment="Added Tokenizer" />
+    <list default="true" id="ca6611e5-5091-4c0d-8997-a805d089a0be" name="Changes" comment="Added Tokenizer">
+      <change beforePath="$PROJECT_DIR$/chatbot_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_back/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +266,7 @@
       <workItem from="1746724183570" duration="2039000" />
       <workItem from="1746727395282" duration="6037000" />
       <workItem from="1746758272152" duration="3741000" />
-      <workItem from="1746797344879" duration="3663000" />
+      <workItem from="1746797344879" duration="4206000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tokenizer">
       <option name="closed" value="true" />
