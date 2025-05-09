@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-c6vae3&ad6%94^e6(@0iryb#fxgy+1q8qs3p+0tbvk&r^9r@)w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chatbot.bryanquintana.com']
+ALLOWED_HOSTS = ["https://chatbot.bryanquintana.com",]
 
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'chatbot_back.urls'
 
