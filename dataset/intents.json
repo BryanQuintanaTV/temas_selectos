@@ -340,7 +340,7 @@
         "Como contacto a mi docente?"
       ],
       "responses": [
-        "Revisa el **directorio de docentes** en el Sistema Integral de Información (SII); allí aparece el correo institucional al cual podrás enviarle un corre para comunicarte con el."
+        "Revisa el **directorio de docentes** en el Sistema Integral de Información (SII); allí aparece el correo institucional al cual podrás enviarle un correo para comunicarte con el."
       ]
     },
     {
@@ -698,7 +698,7 @@
         "Como se tramita el titulo profesional?"
       ],
       "responses": [
-        "Para iniciar tu proceso de **titulación integral** en el TecNM Campus Chihuahua II debes: 1) Haber cubierto el **100 % de los créditos** del plan de estudios (materias, servicio social, residencia profesional y actividades complementarias); 2) Elegir una modalidad de titulación aprobada (tesis/tesina, proyecto integrador, reporte de residencia profesional); 3) Solicitar en **Servicios Escolares** el formato *Solicitud de Titulación Integral* y entregarlo con: kárdex final, constancia de no adeudo y copia de tu acta de nacimiento; 4) Pagar los derechos de titulación en caja y anexar el recibo. Con el expediente completo, la **División de Estudios Profesionales** asigna sinodales y agenda tu acto protocolario."
+        "Para iniciar tu proceso de **titulación integral** en el TecNM Campus Chihuahua II debes: <br> **1)** Haber cubierto el **100 % de los créditos** del plan de estudios (materias, servicio social, residencia profesional y actividades complementarias). <br> **2)** Elegir una modalidad de titulación aprobada (tesis, proyecto integrador, reporte de residencia profesional). <br> **3)** Solicitar en **Servicios Escolares** el formato *Solicitud de Titulación Integral* y entregarlo con: kárdex final, constancia de no adeudo y copia de tu acta de nacimiento. <br> **4)** Pagar los derechos de titulación en caja y anexar el recibo. <br> Con el expediente completo, la **División de Estudios Profesionales** asigna sinodales y agenda tu acto protocolario."
       ]
     },
     {
@@ -760,7 +760,7 @@
         "Cuantas veces puedo pedir baja temporal?"
       ],
       "responses": [
-        "Para solicitar la baja temporal debes:\n1) Dirigirte al Departamento de Servicios Escolares y llenar el formato oficial de baja temporal.\n2) Presentar tu solicitud por escrito (firmada y con número de control) explicando los motivos y anexar la documentación de respaldo (por ejemplo, constancia médica o carta laboral si aplica).\n3) Entregar el trámite dentro de los primeros 30 días hábiles del semestre; el Director del plantel revisará la petición y, de procedente, emitirá la autorización.\nDurante la baja temporal se suspende tu condición de estudiante y no podrás inscribir materias ni gozar de beneficios escolares hasta que te reinscribas en el siguiente periodo autorizado.",
+        "Para solicitar la baja temporal debes:<br**>1)** Dirigirte al Departamento de Servicios Escolares y llenar el formato oficial de baja temporal.<br>**2)** Presentar tu solicitud por escrito (firmada y con número de control) explicando los motivos y anexar la documentación de respaldo (por ejemplo, constancia médica o carta laboral si aplica).<br>**3)** Entregar el trámite dentro de los primeros 30 días hábiles del semestre; el Director del plantel revisará la petición y, de procedente, emitirá la autorización.<br>Durante la baja temporal se suspende tu condición de estudiante y no podrás inscribir materias ni gozar de beneficios escolares hasta que te reinscribas en el siguiente periodo autorizado.",
         "El proceso de baja temporal consiste en: solicitar el formato en Servicios Escolares, anexar la justificación (médica, laboral o personal), entregar la documentación antes de la mitad del semestre y esperar la resolución. Con la baja temporal tu matrícula queda en pausa; para regresar solo debes reinscribirte dentro de las fechas oficiales del próximo semestre."
       ]
     },
@@ -898,9 +898,8 @@
         "Puedo cambiar de programa educativo?"
       ],
       "responses": [
-        "Sí, es posible cambiar de carrera (o de campus) dentro del TecNM. Debes presentar una solicitud formal ante el Departamento de Servicios Escolares dentro de los primeros 30 días hábiles del semestre, adjuntando: 1) carta de motivos, 2) historial académico (sin adeudos), 3) kárdex con promedio mínimo de 8.0 y 4) no más del 30 % de créditos cursados en la carrera actual.",
-        "El Comité Académico revisa tu solicitud, analiza compatibilidad de planes de estudio y emite dictamen. Si se aprueba, se te entregará una constancia de no inconveniencia y tu expediente pasará al nuevo programa/campus. Las materias afines podrán convalidarse mediante dictamen de equivalencia.",
-        "Recuerda que el cambio solo se autoriza una vez por trayectoria académica y está sujeto a cupo disponible en la carrera destino. Consulta fechas y requisitos específicos en el Lineamiento de Traslado Estudiantil y Cambio de Programa Educativo de tu plantel."
+        "Sí, es posible cambiar de carrera (o de campus) dentro del TecNM. Debes presentar una solicitud formal ante el Departamento de Servicios Escolares dentro de los primeros 30 días hábiles del semestre, adjuntando: <br> **1)** carta de motivos. <br> **2)** historial académico (sin adeudos). <br> **3)** kárdex con promedio mínimo de 8.0. <br> y **4)** no más del 30 % de créditos cursados en la carrera actual.",
+        "El Comité Académico revisa tu solicitud, analiza compatibilidad de planes de estudio y emite dictamen. Si se aprueba, se te entregará una constancia de no inconveniencia y tu expediente pasará al nuevo programa/campus. Las materias afines podrán convalidarse mediante dictamen de equivalencia."
       ]
     },
     {
@@ -1067,9 +1066,7 @@
         "Que materias hay?"
       ],
       "responses": [
-        "Las carreras que ofrece el TecNM campus Chihuahua II son: Ingeniería Industrial, Ingeniería en Diseño Industrial, Ingeniería en Sistemas Computacionales, Ingeniería en Ciberseguridad, Ingeniería en Gestión Empresarial, Licenciatura en Administración y Arquitectura.",
-        "Actualmente puedes estudiar 6 ingenierías y 1 licenciatura: Industrial, Diseño Industrial, Sistemas Computacionales, Ciberseguridad, Gestión Empresarial, Administración (licenciatura) y Arquitectura.",
-        "Si buscas la lista completa de opciones académicas, el TecNM ofrece: Ingeniería Industrial, Ingeniería en Diseño Industrial, Ingeniería en Sistemas Computacionales, Ingeniería en Ciberseguridad, Ingeniería en Gestión Empresarial, Licenciatura en Administración y el programa de Arquitectura."
+        "Las carreras que ofrece el **TecNM campus Chihuahua II** son: <br> - Ingeniería Industrial. <br> - Ingeniería en Diseño Industrial. <br> - Ingeniería en Sistemas Computacionales. <br> - Ingeniería en Ciberseguridad. <br> - Ingeniería en Gestión Empresarial. <br> - Licenciatura en Administración y Arquitectura."
       ]
     },
     {
@@ -1283,7 +1280,7 @@
         "Donde reviso mis calificaciones?"
       ],
       "responses": [
-        "Ingresa al **SII** (sii.chihuahua2.tecnm.mx) con tu matrícula y contraseña; en el menú elige **Kárdex / Calificaciones** para ver tus parciales y finales."
+        "Ingresa al [**SII**](htps://sii.chihuahua2.tecnm.mx) con tu matrícula y contraseña; en el menú elige **Información Escolar / Boleta de calificaciones** o **Kardex De Calificaciones** para ver tus calificaciones."
       ]
     },
 
@@ -1311,9 +1308,8 @@
         "Donde reviso mi carga academica?"
       ],
       "responses": [
-        "Para ver tu carga académica ingresa al Sistema Integral de Información (SII) con tu matrícula y contraseña. Una vez dentro, selecciona la opción **Kárdex/Carga académica** o **Horario**, donde aparece la lista de asignaturas inscritas en el semestre.",
-        "Tu carga académica está disponible en el SII. Si el sistema no carga, verifica conexión o comunícate con Servicios Escolares para confirmar tus materias y obtener un reporte impreso.",
-        "También puedes pedir a Servicios Escolares un historial impreso de tu carga académica si tienes problemas de acceso al SII."
+        "Para ver tu carga académica ingresa al Sistema Integral de Información (SII) con tu matrícula y contraseña. Una vez dentro, selecciona la opción **Información Escolar/Materias Cursando** o **Horario**, donde aparece la lista de asignaturas inscritas en el semestre.",
+        "Tu carga académica está disponible en el SII."
       ]
     },
     {
