@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca6611e5-5091-4c0d-8997-a805d089a0be" name="Changes" comment="Added Tokenizer" />
+    <list default="true" id="ca6611e5-5091-4c0d-8997-a805d089a0be" name="Changes" comment="Added Tokenizer">
+      <change beforePath="$PROJECT_DIR$/dataset/intents.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/intents.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,7 +273,7 @@
       <workItem from="1747685739827" duration="2502000" />
       <workItem from="1747725803905" duration="2782000" />
       <workItem from="1747769341676" duration="3418000" />
-      <workItem from="1747847651221" duration="6769000" />
+      <workItem from="1747847651221" duration="7215000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tokenizer">
       <option name="closed" value="true" />
