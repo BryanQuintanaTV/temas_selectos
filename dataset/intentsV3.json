@@ -1,0 +1,841 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "Hey",
+        "Qué onda",
+        "Buenas",
+        "Holaaa",
+        "Hola qué tal",
+        "Buenas noches",
+        "Hola chatbot",
+        "Hola hola",
+        "Saludos",
+        "Holii",
+        "buenas noches",
+        "Hola, estas ahi?",
+        "Saludos"
+      ],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte?",
+        "¡Hola! Estoy para apoyarte con cualquier duda sobre el TecNM.",
+        "Hola, dime en qué necesitas ayuda."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Bye",
+        "Chao",
+        "Me voy",
+        "Nos vemos luego",
+        "Nos vemos pronto",
+        "Me retiro",
+        "Bye bye",
+        "Chau",
+        "Nos vemos después",
+        "Ya no tengo dudas, gracias",
+        "Nos vemos pronto",
+        "Me retiro",
+        "bye bye",
+        "Chau",
+        "Gracias, hasta luego",
+        "Bueno, me voy",
+        "Nos vemos despues",
+        "Nos vemos después",
+        "Que tengas buen dia"
+      ],
+      "responses": [
+        "¡Hasta luego! Que tengas un buen día.",
+        "Nos vemos, ¡éxito en tus estudios!",
+        "¡Cuídate! Aquí estaré si necesitas más ayuda."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Te lo agradezco",
+        "Mil gracias",
+        "Gracias por tu ayuda",
+        "Muy amable",
+        "Gracias por todo",
+        "Gracias por responder",
+        "Gracias por tu apoyo",
+        "Estoy muy agradecido",
+        "Muchísimas gracias",
+        "Gracias de verdad",
+        "Te agradezco mucho",
+        "Qué amable eres",
+        "Gracias otra vez",
+        "Gracias por todo",
+        "Gracias por responder",
+        "Gracias por tu apoyo",
+        "Estoy muy agradecido",
+        "Muchisimas gracias",
+        "Gracias de verdad",
+        "Te agradezco mucho",
+        "Que amable eres",
+        "Gracias otra vez"
+      ],
+      "responses": [
+        "¡Con gusto!",
+        "Para eso estoy 😊",
+        "¡Siempre feliz de ayudarte!",
+        "¡De nada! Me alegra haber sido útil."
+      ]
+    },
+    {
+      "tag": "Créditos complementarios",
+      "patterns": [
+        "¿Cuántos créditos de actividades complementarias necesito?",
+        "¿Cuántas horas de actividades complementarias se requieren?",
+        "¿Cuántos créditos necesito en actividades complementarias?",
+        "¿Cuál es el mínimo de créditos complementarios?",
+        "¿Cuántos puntos debo cumplir en actividades extra?",
+        "cuantos creditos complementarios necesito",
+        "cuántos créditos complementarios necesito",
+        "¿cuántos creditos complementarios necesito?",
+        "¿cuantos créditos complementarios necesito?",
+        "créditos complementarios necesarios",
+        "necesito créditos complementarios",
+        "que tantos créditos complementarios tengo que hacer",
+        "cuantos creditos son",
+        "cuántos créditos extra necesito",
+        "cuantos puntos extra necesito",
+        "¿Cuántos créditos necesito completar?",
+        "¿Cuántos créditos son en total?",
+        "¿Qué tanto debo hacer en actividades complementarias?",
+        "¿Es obligatorio hacer créditos complementarios?",
+        "¿Cuántas actividades debo hacer para cumplir los créditos?",
+        "¿Cuántos créditos debo acumular?",
+        "Actividades complementarias cuántos créditos valen",
+        "¿Se pueden hacer más de 5 créditos?",
+        "¿Cuántas horas necesito hacer?",
+        "¿Cuántas actividades necesito hacer?",
+        "Cuantos creditos necesito completar",
+        "Cuantos creditos son en total",
+        "Que tanto debo hacer en actividades complementarias",
+        "Es obligatorio hacer creditos complementarios",
+        "Cuantas actividades debo hacer para cumplir los creditos",
+        "Cuantos creditos debo acumular",
+        "Actividades complementarias cuantos creditos valen",
+        "Se pueden hacer mas de 5 creditos",
+        "Cuantas horas necesito hacer",
+        "Cuantas actividades necesito hacer"
+      ],
+      "responses": [
+        "Necesitas cumplir con 5 créditos complementarios, lo que representa 100 horas aproximadamente.",
+        "Debes completar el equivalente a 5 créditos en actividades complementarias, lo que representa 100 horas aproximadamente.",
+        "El mínimo requerido es de 5 créditos complementarios, lo que representa 100 horas aproximadamente."
+      ]
+    },
+    {
+      "tag": "Tipos de actividades complementarias",
+      "patterns": [
+        "¿Qué tipo de actividades complementarias puedo hacer?",
+        "¿Qué actividades cuentan como complementarias?",
+        "¿Puedo hacer deportes como actividad complementaria?",
+        "¿Las actividades culturales cuentan como complementarias?",
+        "¿Qué opciones tengo para cumplir actividades complementarias?",
+        "Ejemplos de actividades complementarias",
+        "¿Qué cuenta como actividad complementaria?",
+        "Opciones de actividades complementarias",
+        "¿Qué tipo de actividades son válidas?",
+        "¿Qué clases de actividades sirven como complementarias?",
+        "¿Qué cosas cuentan como créditos extra?",
+        "¿Las actividades voluntarias cuentan?",
+        "¿Puedo asistir a congresos como actividad?",
+        "¿Qué actividades puedo realizar para completar créditos?",
+        "¿Qué talleres o cursos sirven para actividades complementarias?",
+        "¿Vale participar en concursos?",
+        "¿Cuenta participar en robótica?",
+        "¿Qué puedo hacer como actividad extra?",
+        "Que tipo de actividades son validas",
+        "Que clases de actividades sirven como complementarias",
+        "Que cosas cuentan como creditos extra",
+        "Las actividades voluntarias cuentan",
+        "Puedo asistir a congresos como actividad",
+        "Que actividades puedo realizar para completar creditos",
+        "Que talleres o cursos sirven para actividades complementarias",
+        "Vale participar en concursos",
+        "Cuenta participar en robotica",
+        "Que puedo hacer como actividad extra"
+      ],
+      "responses": [
+        "Puedes realizar actividades deportivas, culturales, cursos, congresos, servicio comunitario, o participar en investigación.",
+        "Las actividades complementarias pueden ser: talleres, proyectos, deportes, cultura, cursos o tutorías.",
+        "Depende de tu institución, pero normalmente deportes, cultura, cursos y eventos académicos aplican como actividades complementarias.",
+        "Tutoría, proyectos de investigación, eventos académicos, actividades deportivas y culturales, prototipos tecnológicos, fomento a la lectura y conservación del medio ambiente son ejemplos válidos.",
+        "Cada instituto publica su catálogo; revisa el Programa Institucional de Innovación y Desarrollo para elegir la opción que mejor se adapte a tus intereses."
+      ]
+    },
+    {
+      "tag": "Derechos del estudiante",
+      "patterns": [
+        "¿Cuáles son mis derechos como estudiante?",
+        "¿Qué beneficios tengo como alumno del TecNM?",
+        "¿Qué derechos tengo según el reglamento de estudiantes?",
+        "¿Qué me permite hacer el reglamento como estudiante?",
+        "¿Qué derechos tengo como alumno?",
+        "¿Cuáles son mis garantías como estudiante?",
+        "¿Qué puedo exigir como estudiante?",
+        "¿Qué apoyo ofrece el TecNM a sus alumnos?",
+        "¿A qué tengo derecho por ser estudiante?",
+        "¿Qué beneficios me corresponden?",
+        "¿En qué me puede ayudar la escuela?",
+        "¿Cuáles son los derechos estudiantiles?",
+        "Que derechos tengo como alumno",
+        "Cuales son mis garantias como estudiante",
+        "Que puedo exigir como estudiante",
+        "Que apoyo ofrece el TecNM a sus alumnos",
+        "A que tengo derecho por ser estudiante",
+        "Que beneficios me corresponden",
+        "En que me puede ayudar la escuela",
+        "Cuales son los derechos estudiantiles"
+
+
+      ],
+      "responses": [
+        "Tienes derecho a una educación de calidad, trato digno, participar en actividades y recibir apoyos institucionales.",
+        "Puedes acceder a becas, actividades culturales y deportivas, y a ser tratado con respeto sin discriminación.",
+        "También puedes presentar peticiones, participar en sociedades estudiantiles y defender tus derechos conforme al reglamento."
+      ]
+    },
+    {
+      "tag": "Obligaciones del estudiante",
+      "patterns": [
+        "¿Qué obligaciones tengo como estudiante?",
+        "¿Cuáles son los deberes de un alumno en el TecNM?",
+        "¿Qué debo cumplir según el reglamento estudiantil?",
+        "¿Qué tengo que hacer como estudiante?",
+        "¿Qué responsabilidades tengo?",
+        "¿Qué cosas debo cumplir como alumno?",
+        "¿Cuáles son mis deberes escolares?",
+        "¿Qué está obligado a hacer un estudiante?",
+        "¿Qué reglas debo seguir en el TecNM?",
+        "¿Qué espera la escuela de mí?",
+        "¿Qué debo hacer como parte del reglamento?",
+        "¿Qué no debo hacer como estudiante?",
+        "Que responsabilidades tengo",
+        "Que cosas debo cumplir como alumno",
+        "Cuales son mis deberes escolares",
+        "Que esta obligado a hacer un estudiante",
+        "Que reglas debo seguir en el TecNM",
+        "Que espera la escuela de mi",
+        "Que debo hacer como parte del reglamento",
+        "Que no debo hacer como estudiante"
+
+
+      ],
+      "responses": [
+        "Debes asistir a clases, cumplir el reglamento, portar tu credencial y mantener un comportamiento respetuoso.",
+        "Tus obligaciones incluyen asistir puntualmente, cumplir con los trámites y respetar a la comunidad del TecNM.",
+        "Tienes que cumplir con tus materias, reglamentos, y cuidar las instalaciones del instituto."
+      ]
+    },
+    {
+      "tag": "Proceso de inscripción",
+      "patterns": [
+        "¿Cómo es el proceso de inscripción en el TecNM?",
+        "¿Qué debo hacer para reinscribirme?",
+        "¿En qué consiste la reinscripción?",
+        "¿Cómo me inscribo como estudiante nuevo?",
+        "¿Cómo me registro como estudiante?",
+        "¿Qué pasos debo seguir para inscribirme?",
+        "¿Qué documentos necesito para la inscripción?",
+        "¿Dónde hago el proceso de inscripción?",
+        "¿Cuáles son los requisitos para inscribirse?",
+        "¿Cómo me doy de alta como alumno nuevo?",
+        "¿Qué días es la inscripción?",
+        "¿Dónde me inscribo?",
+        "Como me registro como estudiante",
+        "Que pasos debo seguir para inscribirme",
+        "Que documentos necesito para la inscripcion",
+        "Donde hago el proceso de inscripcion",
+        "Cuales son los requisitos para inscribirse",
+        "Como me doy de alta como alumno nuevo",
+        "Que dias es la inscripcion",
+        "Cuando me toca reinscribirme",
+        "Donde me inscribo"
+      ],
+      "responses": [
+        "La inscripción requiere entregar documentos, llenar formularios y pagar las cuotas correspondientes.",
+        "Para reinscribirte debes elegir tus materias, actualizar tu información y pagar en tiempo.",
+        "La reinscripción se hace cada semestre y te mantiene como estudiante activo."
+      ]
+    },
+    {
+      "tag": "Residencia profesional",
+      "patterns": [
+        "¿Qué es la residencia profesional?",
+        "¿Cuánto tiempo dura la residencia profesional?",
+        "¿Cuándo debo hacer mi residencia?",
+        "¿Qué requisitos hay para la residencia profesional?",
+        "¿Qué se hace en la residencia profesional?",
+        "¿Dónde se puede hacer la residencia?",
+        "¿Cuándo empiezo la residencia?",
+        "¿Qué me piden para iniciar mi residencia?",
+        "¿Cuánto tiempo debo trabajar en la residencia?",
+        "¿Es obligatorio hacer la residencia?",
+        "¿Puedo hacer la residencia en cualquier empresa?",
+        "¿Qué carrera requiere residencia?",
+        "Que se hace en la residencia profesional",
+        "Donde se puede hacer la residencia",
+        "Cuando empiezo la residencia",
+        "Que me piden para iniciar mi residencia",
+        "Cuanto tiempo debo trabajar en la residencia",
+        "Es obligatorio hacer la residencia",
+        "Puedo hacer la residencia en cualquier empresa",
+        "Que carrera requiere residencia"
+
+
+      ],
+      "responses": [
+        "La residencia profesional es un proyecto en una empresa que haces al final de la carrera.",
+        "Generalmente dura un semestre y equivale a 10 créditos.",
+        "Debes tener la mayoría de materias cursadas para poder hacerla."
+      ]
+    },
+    {
+      "tag": "Servicio social",
+      "patterns": [
+        "¿Qué es el servicio social?",
+        "¿Cuándo se hace el servicio social?",
+        "¿Cuántas horas son de servicio social?",
+        "¿Qué requisitos hay para liberar el servicio social?",
+        "¿Dónde puedo hacer el servicio social?",
+        "¿Cuáles son las opciones para hacer servicio social?",
+        "¿Qué necesito para liberar el servicio social?",
+        "¿Qué instituciones aceptan servicio social?",
+        "¿Qué se hace en el servicio social?",
+        "¿Dónde tramito mi carta de servicio?",
+        "¿Cuántas semanas dura el servicio social?",
+        "¿Se puede hacer en vacaciones?",
+        "Donde puedo hacer el servicio social",
+        "Cuales son las opciones para hacer servicio social",
+        "Que necesito para liberar el servicio social",
+        "Que instituciones aceptan servicio social",
+        "Que se hace en el servicio social",
+        "Donde tramito mi carta de servicio",
+        "Cuantas semanas dura el servicio social",
+        "Se puede hacer en vacaciones"
+
+
+      ],
+      "responses": [
+        "El servicio social dura al menos 480 horas y puedes hacerlo con el 70% de créditos aprobados.",
+        "Es obligatorio para titularte y debe realizarse en instituciones u organizaciones autorizadas.",
+        "Al finalizar, se entrega una carta de liberación para tu proceso de titulación."
+      ]
+    },
+    {
+      "tag": "Titulación integral",
+      "patterns": [
+        "¿Qué es la titulación integral?",
+        "¿Qué necesito para titularme?",
+        "¿Cuáles son las modalidades de titulación?",
+        "¿Qué requisitos hay para el proceso de titulación?",
+        "¿Qué modalidades de titulación existen?",
+        "¿Cómo me puedo titular?",
+        "¿Es difícil titularse?",
+        "¿Qué pasos tengo que seguir para titularme?",
+        "¿Qué documentos necesito para titularme?",
+        "¿Me puedo titular por promedio?",
+        "¿Cuáles son los requisitos para la titulación integral?",
+        "¿Cuántas opciones hay para titularse?",
+        "Que modalidades de titulacion existen",
+        "Como me puedo titular",
+        "Es dificil titularse",
+        "Que pasos tengo que seguir para titularme",
+        "Que documentos necesito para titularme",
+        "Me puedo titular por promedio",
+        "Cuales son los requisitos para la titulacion integral",
+        "Cuantas opciones hay para titularse"
+
+
+      ],
+      "responses": [
+        "La titulación integral permite obtener tu título al acreditar todas las competencias de tu carrera.",
+        "Necesitas haber cumplido con todas tus materias, residencia, servicio social y actividades complementarias.",
+        "Puedes titularte por tesis, proyecto integrador, prototipos, entre otros."
+      ]
+    },
+    {
+      "tag": "Movilidad estudiantil",
+      "patterns": [
+        "¿Qué es la movilidad estudiantil?",
+        "¿Puedo estudiar en otro instituto?",
+        "¿Cómo participar en movilidad académica?",
+        "¿Qué necesito para una estancia en otra universidad?",
+        "¿Puedo estudiar en otro campus?",
+        "¿Puedo hacer intercambio académico?",
+        "¿Qué universidades están disponibles para movilidad?",
+        "¿Qué programas hay de movilidad?",
+        "¿Cómo solicito movilidad?",
+        "¿Puedo estudiar en el extranjero?",
+        "¿Con quién me dirijo para la movilidad?",
+        "Puedo estudiar en otro campus",
+        "Puedo hacer intercambio academico",
+        "Que universidades estan disponibles para movilidad",
+        "Que programas hay de movilidad",
+        "Como solicito movilidad",
+        "Puedo estudiar en el extranjero",
+        "Con quien me dirijo para la movilidad"
+
+
+      ],
+      "responses": [
+        "La movilidad permite cursar materias en otra institución por uno o más semestres.",
+        "Debes estar inscrito, tener buen promedio y cumplir con los requisitos del programa.",
+        "Las materias que curses pueden ser revalidadas en tu plan de estudios."
+      ]
+    },
+    {
+      "tag": "Educación a distancia",
+      "patterns": [
+        "¿Hay educación a distancia en el TecNM?",
+        "¿Qué es la modalidad en línea?",
+        "¿Cómo funciona la modalidad mixta?",
+        "¿Puedo estudiar desde casa?",
+        "¿Se puede estudiar online?",
+        "¿Hay clases virtuales?",
+        "¿Qué carreras se pueden cursar en línea?",
+        "¿Cuál es la diferencia entre modalidad mixta y en línea?",
+        "¿Cómo me inscribo en modalidad virtual?",
+        "¿Qué necesito para estudiar a distancia?",
+        "¿Se puede estudiar desde otra ciudad?",
+        "Se puede estudiar online",
+        "Hay clases virtuales",
+        "Que carreras se pueden cursar en linea",
+        "Cual es la diferencia entre modalidad mixta y en linea",
+        "Como me inscribo en modalidad virtual",
+        "Que necesito para estudiar a distancia",
+        "Se puede estudiar desde otra ciudad"
+
+
+      ],
+      "responses": [
+        "Sí, el TecNM ofrece modalidades no escolarizadas y mixtas.",
+        "Puedes estudiar en línea con apoyo de plataformas y asesoría docente.",
+        "Ambas modalidades tienen el mismo valor curricular que la presencial."
+      ]
+    },
+    {
+      "tag": "Evaluación y calificación",
+      "patterns": [
+        "¿Cuál es la calificación mínima aprobatoria?",
+        "¿Con qué calificación paso una materia?",
+        "¿Qué nota necesito para aprobar?",
+        "¿Cuánto necesito para pasar?",
+        "¿Con cuánto se aprueba?",
+        "¿Qué pasa si saco 69?",
+        "¿Es 70 la mínima aprobatoria?",
+        "¿Cuál es la nota mínima para acreditar una materia?",
+        "¿Qué calificación es reprobatoria?",
+        "¿Qué pasa si repruebo una materia?",
+        "¿Con qué nota repruebo?",
+        "¿Qué pasa si repruebo una materia?",
+        "¿Puedo repetir una materia reprobada?",
+        "¿Cuándo repruebo?",
+        "¿Cuál es la calificación más baja aprobatoria?",
+        "¿Qué pasa si no paso una materia?",
+        "¿70 es suficiente para aprobar?",
+        "¿Me reprueban con 69?",
+        "Con que nota repruebo",
+        "Que pasa si repruebo una materia",
+        "Puedo repetir una materia reprobada",
+        "Cuando repruebo",
+        "Cual es la calificacion mas baja aprobatoria",
+        "Que pasa si no paso una materia",
+        "70 es suficiente para aprobar",
+        "Me reprueban con 69"
+
+
+      ],
+      "responses": [
+        "La calificación mínima aprobatoria en el TecNM es de 70.",
+        "Necesitas obtener al menos 70 para aprobar una materia.",
+        "Cualquier calificación menor a 70 se considera reprobatoria."
+      ]
+    },
+    {
+      "tag": "Constancias y documentos",
+      "patterns": [
+        "¿Cómo solicito una constancia de estudios?",
+        "¿Dónde puedo pedir una constancia?",
+        "¿Qué documentos puedo solicitar en control escolar?",
+        "¿Cómo tramito una constancia de materias?",
+        "¿Cuánto tarda una constancia de estudios?",
+        "¿Dónde recojo mi constancia?",
+        "¿Puedo pedir una constancia en línea?",
+        "¿Dónde pido una constancia escolar?",
+        "¿Qué documentos entrega control escolar?",
+        "¿Cómo solicito un historial académico?",
+        "¿Cuánto cuesta una constancia?",
+        "¿Dónde tramito papeles escolares?",
+        "¿Puedo pedir mi constancia por internet?",
+        "Puedo pedir una constancia en linea",
+        "Donde pido una constancia escolar",
+        "Que documentos entrega control escolar",
+        "Como solicito un historial academico",
+        "Cuanto cuesta una constancia",
+        "Donde tramito papeles escolares",
+        "Puedo pedir mi constancia por internet"
+
+
+      ],
+      "responses": [
+        "Puedes solicitar constancias en el área de control escolar de tu plantel.",
+        "Las constancias se tramitan en ventanilla y pueden tardar algunos días según el trámite.",
+        "Algunas constancias también se pueden pedir en línea si tu plantel lo permite."
+      ]
+    },
+    {
+      "tag": "Cambio de carrera o campus",
+      "patterns": [
+        "¿Puedo cambiarme de carrera?",
+        "¿Qué necesito para cambiarme de carrera?",
+        "¿Es posible cambiar de campus dentro del TecNM?",
+        "¿Qué debo hacer si quiero estudiar otra carrera?",
+        "¿Se puede hacer cambio interno de carrera?",
+        "¿Puedo cambiar de carrera después del primer semestre?",
+        "¿Me puedo cambiar de campus a otro estado?",
+        "¿Cómo hago un cambio de programa educativo?",
+        "¿Se puede hacer cambio de carrera dentro del mismo instituto?",
+        "¿Puedo solicitar cambio de plantel?",
+        "¿A quién le pido cambio de carrera?",
+        "Puedo cambiar de carrera despues del primer semestre",
+        "Me puedo cambiar de campus a otro estado",
+        "Como hago un cambio de programa educativo",
+        "Se puede hacer cambio de carrera dentro del mismo instituto",
+        "Puedo solicitar cambio de plantel",
+        "A quien le pido cambio de carrera"
+
+
+      ],
+      "responses": [
+        "Sí, puedes cambiarte de carrera o campus, pero debes cumplir con ciertos requisitos académicos y administrativos.",
+        "Debes solicitar el cambio en control escolar y presentar una justificación.",
+        "Consulta los lineamientos y fechas disponibles en tu plantel."
+      ]
+    },
+    {
+      "tag": "Número de control",
+      "patterns": [
+        "¿Qué es el número de control?",
+        "¿Dónde consigo mi número de control?",
+        "¿Para qué sirve el número de control?",
+        "¿Qué hago si perdí mi número de control?",
+        "¿Cuál es mi número de matrícula?",
+        "¿Dónde aparece mi número de estudiante?",
+        "¿Es lo mismo número de control y matrícula?",
+        "¿Qué número uso para acceder al sistema?",
+        "¿Dónde está mi número de control?",
+        "¿Cómo recupero mi número si lo perdí?",
+        "Cual es mi numero de matricula",
+        "Donde aparece mi numero de estudiante",
+        "Es lo mismo numero de control y matricula",
+        "Que numero uso para acceder al sistema",
+        "Donde esta mi numero de control",
+        "Como recupero mi numero si lo perdi"
+
+
+      ],
+      "responses": [
+        "Tu número de control es tu matrícula, y se usa para identificarte en todos los procesos escolares.",
+        "Puedes consultarlo en tu credencial o en documentos oficiales del TecNM.",
+        "Si no lo tienes, acude a control escolar con una identificación oficial."
+      ]
+    },
+    {
+      "tag": "Calendario escolar",
+      "patterns": [
+        "¿Dónde veo el calendario escolar?",
+        "¿Cuándo empiezan las clases?",
+        "¿Dónde encuentro las fechas importantes?",
+        "¿Dónde está el calendario del semestre?",
+        "¿Qué días hay suspensión de clases?",
+        "¿Cuándo son las vacaciones?",
+        "¿Qué fechas son importantes en el calendario?",
+        "¿Dónde se publica el calendario?",
+        "¿Cuándo acaban las clases?",
+        "¿Cuándo son los exámenes finales?",
+        "¿Cuándo hay suspensión de clases?",
+        "¿Dónde consulto el calendario académico?",
+        "Cuando son las vacaciones",
+        "Que fechas son importantes en el calendario",
+        "Donde se publica el calendario",
+        "Cuando acaban las clases",
+        "Cuando son los examenes finales",
+        "Cuando hay suspension de clases",
+        "Donde consulto el calendario academico"
+
+
+      ],
+      "responses": [
+        "El calendario escolar se publica en la página oficial del TecNM y de tu plantel.",
+        "Consulta el calendario para conocer fechas de inscripción, exámenes y vacaciones.",
+        "Las fechas también pueden estar disponibles en las redes sociales del instituto."
+      ]
+    },
+    {
+      "tag": "Horario de clases",
+      "patterns": [
+        "¿Dónde veo mi horario de clases?",
+        "¿Cuándo me dan el horario?",
+        "¿Quién me asigna el horario?",
+        "¿Dónde está mi horario de materias?",
+        "¿Qué materias tengo este semestre?",
+        "¿Dónde está mi horario?",
+        "¿A qué hora tengo clases?",
+        "¿Cómo reviso mi horario escolar?",
+        "¿Quién me da el horario?",
+        "¿Cómo sé mis materias del semestre?",
+        "¿Dónde aparece el horario de materias?",
+        "Donde esta mi horario",
+        "A que hora tengo clases",
+        "Como reviso mi horario escolar",
+        "Quien me da el horario",
+        "Como se mis materias del semestre",
+        "Donde aparece el horario de materias"
+
+
+      ],
+      "responses": [
+        "El horario se asigna al momento de la reinscripción y puedes consultarlo en tu sistema escolar.",
+        "Si tienes dudas sobre tu horario, acude con tu tutor o jefe de carrera.",
+        "Algunas instituciones publican horarios en línea o los envían por correo."
+      ]
+    },
+    {
+      "tag": "Servicio médico",
+      "patterns": [
+        "¿El TecNM ofrece servicio médico?",
+        "¿Puedo atenderme en el instituto si me siento mal?",
+        "¿Dónde está el consultorio médico?",
+        "¿Hay médico en el campus?",
+        "¿Qué hago si me enfermo en clase?",
+        "¿Hay atención médica en la escuela?",
+        "¿Qué hago si me siento mal en clases?",
+        "¿A quién aviso si me duele algo?",
+        "¿Puedo ir al doctor en la escuela?",
+        "¿Tienen primeros auxilios en el campus?",
+        "¿Dónde está el servicio médico?",
+        "Hay atencion medica en la escuela",
+        "Que hago si me siento mal en clases",
+        "A quien aviso si me duele algo",
+        "Puedo ir al doctor en la escuela",
+        "Tienen primeros auxilios en el campus",
+        "Donde esta el servicio medico"
+
+
+      ],
+      "responses": [
+        "Sí, la mayoría de los planteles del TecNM tienen servicio médico básico.",
+        "Puedes acudir al consultorio dentro del campus durante el horario establecido.",
+        "Si te sientes mal, informa a tu profesor y acude con el personal médico del instituto."
+      ]
+    },
+    {
+      "tag": "Carreras ofertadas",
+      "patterns": [
+        "¿Qué carreras hay en la escuela?",
+        "¿Qué puedo estudiar en el TecNM?",
+        "¿Cuáles son las carreras disponibles?",
+        "¿Qué opciones académicas ofrece el instituto?",
+        "¿Qué ingenierías puedo estudiar?",
+        "¿Qué licenciaturas hay?",
+        "¿Qué carreras tienen en el campus?",
+        "Opciones de estudio en el TecNM",
+        "Lista de carreras que ofrece la escuela",
+        "Carreras en el instituto",
+        "¿Qué carreras tienen disponibles?",
+        "¿Qué se puede estudiar aquí?",
+        "Quiero saber qué carreras ofrecen",
+        "¿Tienen arquitectura?",
+        "¿Tienen ingeniería en sistemas?",
+        "¿Tienen licenciatura en administración?",
+        "¿Tienen ingeniería en informática?",
+        "¿Tienen ingeniería en diseño industrial?",
+        "¿Tienen gestión empresarial?",
+        "¿Tienen ingeniería industrial?",
+        "¿Qué carreras técnicas hay?",
+        "¿Qué ingenierías hay?",
+        "¿Qué carreras puedo escoger?",
+        "¿Qué programas académicos hay?",
+        "¿Cuáles son las opciones de carrera?",
+        "¿Qué se estudia en esta universidad?",
+        "¿Qué áreas de estudio ofrece el TecNM?",
+        "Carreras disponibles",
+        "Programas de estudio en el TecNM",
+        "¿Qué programas de licenciatura tienen?",
+        "¿Qué programas de ingeniería ofrecen?",
+        "¿Qué carreras hay en el tecnológico?",
+        "¿Qué carreras puedo estudiar en este plantel?",
+        "¿Qué carreras están disponibles para nuevo ingreso?",
+        "¿Cuántas carreras hay?",
+        "¿Me puedes decir qué carreras hay?",
+        "¿Qué duración tienen las carreras?",
+        "¿Cuántos semestres dura cada carrera?",
+        "Duración de las ingenierías en el TecNM",
+        "¿Cuántos semestres son en arquitectura?",
+        "¿Cuánto dura la carrera de Ingeniería en Sistemas?",
+        "¿Cuánto dura la carrera de Diseño Industrial?",
+        "¿Cuánto tiempo se estudia Ingeniería Informática?",
+        "¿Cuánto tiempo dura Licenciatura en Administración?",
+        "¿Cuántos años son de Ingeniería Industrial?",
+        "¿Cuántos años dura la carrera de Gestión Empresarial?",
+        "¿Cuánto dura cada carrera?",
+        "¿Cuál es la duración de las carreras?",
+        "¿Cuántos años son en la carrera de arquitectura?",
+        "¿Cuánto tiempo toma terminar arquitectura?"
+      ],
+      "responses": [
+        "Las carreras que ofrece el TecNM son: Ingeniería Industrial, Ingeniería en Diseño Industrial, Ingeniería en Sistemas Computacionales, Ingeniería Informática, Ingeniería en Gestión Empresarial, Licenciatura en Administración y Arquitectura.",
+        "Puedes estudiar alguna de estas carreras: Ingeniería Industrial, Diseño Industrial, Sistemas Computacionales, Informática, Gestión Empresarial, Administración y Arquitectura.",
+        "Todas las carreras tienen una duración de 9 semestres, excepto Arquitectura que tiene 10.",
+        "En el TecNM puedes cursar 6 ingenierías y una licenciatura. Arquitectura es la única que dura 10 semestres; las demás tienen 9."
+      ]
+    },
+    {
+      "tag": "becas",
+      "patterns": [
+        "Hay becas disponibles",
+        "Como solicito una beca",
+        "Que becas ofrece la escuela",
+        "Puedo aplicar a una beca",
+        "Donde se piden las becas",
+        "Hay beca para transporte",
+        "Hay becas por promedio",
+        "Como se pierde una beca"
+      ],
+      "responses": [
+        "Puedes consultar las becas disponibles en el Departamento de Servicios Escolares o en la pagina oficial del TecNM.",
+        "Para solicitar una beca, debes cumplir con los requisitos establecidos y presentar la documentacion correspondiente en las fechas indicadas.",
+        "Existen diferentes tipos de becas, como becas por promedio, becas de transporte y becas de apoyo economico."
+      ]
+    },
+    {
+      "tag": "revalidacion_materias",
+      "patterns": [
+        "Puedo revalidar materias de otra escuela",
+        "Como revalido materias",
+        "Que necesito para hacer revalidacion",
+        "Me cuentan materias de otra carrera",
+        "Cuanto tarda el tramite de revalidacion",
+        "Donde hago la revalidacion de materias"
+      ],
+      "responses": [
+        "La revalidacion de materias se realiza a traves del Departamento de Servicios Escolares, presentando la documentacion necesaria.",
+        "Debes solicitar la revalidacion dentro de los primeros 15 dias habiles del semestre, segun el reglamento del TecNM.",
+        "El tramite puede tardar varias semanas, dependiendo de la evaluacion de los contenidos y creditos de las materias."
+      ]
+    },
+    {
+      "tag": "materias_optativas",
+      "patterns": [
+        "Cuales son las materias optativas",
+        "Que optativas hay en mi carrera",
+        "Cuando escojo optativas",
+        "Las optativas son obligatorias",
+        "Que materias puedo elegir como optativas",
+        "Puedo cambiar de optativa"
+      ],
+      "responses": [
+        "Las materias optativas varian segun tu carrera y plan de estudios. Puedes consultarlas en tu departamento academico.",
+        "Generalmente, se eligen en los ultimos semestres y son obligatorias para completar tu plan de estudios.",
+        "Si deseas cambiar de optativa, debes hacerlo dentro del periodo de ajustes establecido por la institucion."
+      ]
+    },
+    {
+      "tag": "plataformas_escolares",
+      "patterns": [
+        "Como entro a la plataforma",
+        "Que es el sistema SII",
+        "No puedo entrar a mi cuenta escolar",
+        "Se me olvido mi contrasena del SII",
+        "Donde veo mis calificaciones",
+        "La plataforma no carga"
+      ],
+      "responses": [
+        "El Sistema Integral de Informacion (SII) es la plataforma donde puedes consultar tus calificaciones, horarios y mas.",
+        "Si tienes problemas para acceder, puedes contactar al Departamento de Servicios Escolares o al soporte tecnico.",
+        "Recuerda que tu usuario y contrasena son proporcionados al momento de tu inscripcion."
+      ]
+    },
+    {
+      "tag": "practicas_profesionales",
+      "patterns": [
+        "Debo hacer practicas profesionales",
+        "Donde puedo hacer practicas",
+        "Como consigo un lugar para practicar",
+        "Que requisitos tienen las practicas",
+        "Cuantas horas son de practicas",
+        "Las practicas son obligatorias"
+      ],
+      "responses": [
+        "Las practicas profesionales son obligatorias y forman parte de tu plan de estudios.",
+        "Debes cumplir con un minimo de 240 horas en una empresa o institucion relacionada con tu carrera.",
+        "Para mas informacion, acude al Departamento de Gestion Tecnologica y Vinculacion."
+      ]
+    },
+    {
+      "tag": "certificados_titulacion",
+      "patterns": [
+        "Cuando entregan el certificado",
+        "Como tramito mi certificado de estudios",
+        "Que cuesta el titulo",
+        "Cuanto tarda el tramite de titulacion",
+        "Donde recojo mi titulo",
+        "El certificado es digital o fisico"
+      ],
+      "responses": [
+        "El certificado de estudios se tramita en el Departamento de Servicios Escolares una vez que hayas concluido tu plan de estudios.",
+        "El costo y tiempo de entrega pueden variar. Te recomendamos consultar directamente en el departamento correspondiente.",
+        "Actualmente, se emiten certificados tanto en formato digital como fisico, segun las disposiciones del TecNM."
+      ]
+    },
+    {
+      "tag": "normas_disciplina",
+      "patterns": [
+        "Que pasa si hago trampa",
+        "Me pueden expulsar",
+        "Hay sanciones por copiar en examenes",
+        "Que cosas no se permiten en la escuela",
+        "Que castigos hay por mala conducta",
+        "Que reglas disciplinarias hay"
+      ],
+      "responses": [
+        "El reglamento establece sanciones para conductas como el plagio, la suplantacion de identidad y la violencia.",
+        "Las sanciones pueden ir desde una amonestacion hasta la expulsion definitiva, dependiendo de la gravedad de la falta.",
+        "Es importante conocer y respetar las normas de convivencia y disciplina establecidas por el TecNM."
+      ]
+    },
+    {
+      "tag": "duracion_carreras",
+      "patterns": [
+        "Cuantos semestres dura cada carrera",
+        "Cuanto dura la carrera de arquitectura",
+        "Cuantos anos son de ingenieria",
+        "Que carreras duran 9 semestres",
+        "La carrera dura 5 anos",
+        "Cuanto tiempo se tarda uno en egresar"
+      ],
+      "responses": [
+        "La mayoria de las carreras tienen una duracion de 9 semestres, es decir, aproximadamente 4.5 anos.",
+        "La duracion puede variar dependiendo de la carga academica y el avance del estudiante.",
+        "Para informacion especifica sobre tu carrera, consulta tu plan de estudios o acude al Departamento de Servicios Escolares."
+      ]
+    }
+    
+  ]
+}

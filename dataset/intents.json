@@ -6,35 +6,19 @@
         "Hola",
         "Buenos días",
         "Buenas tardes",
-        "¿Hay alguien ahí?",
         "Hey",
         "Qué onda",
         "Buenas",
         "Holaaa",
         "Hola qué tal",
         "Buenas noches",
-        "Qué onda Sam",
         "Hola chatbot",
-        "Qué hay",
-        "Hola, estás ahí?",
         "Hola hola",
         "Saludos",
-        "Qué tal",
         "Holii",
-        "Saluditos",
-        "Hola que tal",
         "buenas noches",
-        "Que onda Sam",
-        "Hola chatbot",
-        "Que hay",
         "Hola, estas ahi?",
-        "Hola hola",
-        "Saludos",
-        "Que tal",
-        "Holii",
-        "Saluditos"
-
-
+        "Saludos"
       ],
       "responses": [
         "¡Hola! ¿En qué puedo ayudarte?",
@@ -43,12 +27,51 @@
       ]
     },
     {
+      "tag": "Ayuda_general",
+      "patterns": [
+        "¿En qué puedes ayudarme?",
+        "¿En qué me puedes ayudar?",
+        "¿Cómo me puedes ayudar?",
+        "¿Qué cosas puedes hacer por mí?",
+        "¿Para qué sirves?",
+        "¿Cuál es tu función?",
+        "¿Qué información me puedes dar?",
+        "¿De qué temas me puedes orientar?",
+        "¿Qué tipo de preguntas puedo hacerte?",
+        "¿Explícame cómo me ayudas?",
+        "En qué puedes ayudarme?",
+        "En qué me puedes ayudar?",
+        "Cómo me puedes ayudar?",
+        "Qué cosas puedes hacer por mí?",
+        "Para qué sirves?",
+        "Cuál es tu función?",
+        "Qué información me puedes dar?",
+        "De qué temas me puedes orientar?",
+        "Qué tipo de preguntas puedo hacerte?",
+        "Explícame cómo me ayudas?",
+        "En que puedes ayudarme?",
+        "En que me puedes ayudar?",
+        "Como me puedes ayudar?",
+        "Que cosas puedes hacer por mi?",
+        "Para que sirves?",
+        "Cual es tu funcion?",
+        "Que informacion me puedes dar?",
+        "De que temas me puedes orientar?",
+        "Que tipo de preguntas puedo hacerte?",
+        "Explicame como me ayudas?"
+      ],
+      "responses": [
+        "Puedo responder dudas sobre reglamentos, lineamientos académicos-administrativos y procesos del TecNM, por ejemplo: derechos y obligaciones del estudiante, inscripción, servicio social, movilidad estudiantil, residencia profesional, titulación integral y más.",
+        "Estoy aquí para orientarte en todo lo relacionado con los lineamientos y reglamentos del TecNM: trámites académicos, sanciones, convalidaciones, equivalencias, actividades complementarias, tutorías, etc.",
+        "Consúltame sobre cualquier procedimiento escolar del TecNM: inscripción, reinscripción, bajas, programas de movilidad, servicio social, residencia profesional, cursos de verano, educación a distancia y otros temas contemplados en la normativa."
+      ]
+    },
+    {
       "tag": "despedida",
       "patterns": [
         "Adiós",
         "Hasta luego",
         "Nos vemos",
-        "Gracias, eso es todo",
         "Bye",
         "Chao",
         "Me voy",
@@ -57,12 +80,8 @@
         "Me retiro",
         "Bye bye",
         "Chau",
-        "Gracias, hasta luego",
-        "Bueno, me voy",
         "Nos vemos después",
-        "Fue todo, gracias",
         "Ya no tengo dudas, gracias",
-        "Que tengas buen día",
         "Nos vemos pronto",
         "Me retiro",
         "bye bye",
@@ -70,16 +89,258 @@
         "Gracias, hasta luego",
         "Bueno, me voy",
         "Nos vemos despues",
-        "Fue todo, gracias",
-        "Ya no tengo dudas, gracias",
+        "Nos vemos después",
         "Que tengas buen dia"
-
-
       ],
       "responses": [
         "¡Hasta luego! Que tengas un buen día.",
         "Nos vemos, ¡éxito en tus estudios!",
         "¡Cuídate! Aquí estaré si necesitas más ayuda."
+      ]
+    },
+    {
+      "tag": "Evaluacion_docente",
+      "patterns": [
+        "¿Qué es la evaluación docente?",
+        "¿Para qué sirve la evaluación docente?",
+        "¿Cómo funciona la evaluación docente?",
+        "¿Quién aplica la evaluación docente?",
+        "¿Cuándo se hace la evaluación docente?",
+        "Qué es la evaluación docente?",
+        "Para qué sirve la evaluación docente?",
+        "Cómo funciona la evaluación docente?",
+        "Quién aplica la evaluación docente?",
+        "Cuándo se hace la evaluación docente?",
+        "Que es la evaluación docente?",
+        "Para que sirve la evaluación docente?",
+        "Como funciona la evaluación docente?",
+        "Quien aplica la evaluación docente?",
+        "Cuando se hace la evaluación docente?",
+        "Que es la evaluacion docente?",
+        "Para que sirve la evaluacion docente?",
+        "Como funciona la evaluacion docente?",
+        "Quien aplica la evaluacion docente?",
+        "Cuando se hace la evaluacion docente?"
+      ],
+      "responses": [
+        "En el TecNM, la evaluación docente es un proceso mediante el cual se valora el desempeño de las y los profesores en la impartición de sus asignaturas. Su finalidad es mejorar la calidad educativa y detectar áreas de oportunidad para capacitación y actualización docente.",
+        "La evaluación docente mide la planeación de clase, el dominio de contenidos, la metodología empleada, el uso de recursos didácticos y el trato con los estudiantes. Se aplica regularmente cada semestre y los resultados son confidenciales; sirven para planes de mejora continua y reconocimiento al buen desempeño.",
+        "Cada semestre, los estudiantes responden una encuesta sobre varios indicadores (planeación, metodología, evaluación, puntualidad, etc.). La academia revisa evidencias de clase. Con todo ello se genera un reporte global que ayuda a retroalimentar al docente y a la institución, fomentando la mejora continua y la formación docente."
+      ]
+    },
+    {
+      "tag": "Servicio_medico_disponible",
+      "patterns": [
+        "¿Hay servicio médico para estudiantes?",
+        "¿Existe servicio médico en el TecNM?",
+        "¿El TecNM ofrece servicio médico?",
+        "¿Tienen servicio médico en el campus?",
+        "¿Hay atención médica para alumnos?",
+        "¿Puedo ir al médico en la escuela?",
+        "¿El instituto cuenta con médico?",
+        "Hay servicio médico para estudiantes?",
+        "Existe servicio médico en el TecNM?",
+        "El TecNM ofrece servicio médico?",
+        "Tienen servicio médico en el campus?",
+        "Hay atención médica para alumnos?",
+        "Puedo ir al médico en la escuela?",
+        "El instituto cuenta con médico?",
+        "Hay servicio medico para estudiantes?",
+        "Existe servicio medico en el TecNM?",
+        "El TecNM ofrece servicio medico?",
+        "Tienen servicio medico en el campus?",
+        "Hay atencion medica para alumnos?",
+        "Puedo ir al medico en la escuela?",
+        "El instituto cuenta con medico?"
+      ],
+      "responses": [
+        "Sí, el TecNM Campus Chihuahua II dispone de un servicio médico básico para toda la comunidad estudiantil. Incluye consultas de primer contacto, curaciones menores y primeros auxilios sin costo.",
+        "El plantel cuenta con personal médico y de enfermería disponible. Puedes acudir para valoración general."
+      ]
+    },
+    {
+      "tag": "Procedimiento_atencion_medica",
+      "patterns": [
+        "¿Qué hago si me enfermo en clase?",
+        "¿Qué hago si me siento mal en clases?",
+        "¿A quién aviso si me duele algo?",
+        "¿Cómo pido ayuda médica en el campus?",
+        "¿Qué pasa si me lesiono durante una práctica?",
+        "¿Quién me atiende si me accidento?",
+        "Qué hago si me enfermo en clase?",
+        "Qué hago si me siento mal en clases?",
+        "A quién aviso si me duele algo?",
+        "Cómo pido ayuda médica en el campus?",
+        "Qué pasa si me lesiono durante una práctica?",
+        "Quién me atiende si me accidento?",
+        "Que hago si me enfermo en clase?",
+        "Que hago si me siento mal en clases?",
+        "A quien aviso si me duele algo?",
+        "Como pido ayuda medica en el campus?",
+        "Que pasa si me lesiono durante una practica?",
+        "Quien me atiende si me accidento?"
+      ],
+      "responses": [
+        "Si te sientes mal o sufres una lesión, informa inmediatamente a tu profesor o al responsable del laboratorio/taller; él o ella te acompañará al consultorio médico o llamará a personal de enfermería para que acuda al aula."
+      ]
+    },
+    {
+      "tag": "Reportar_docente_ausente",
+      "patterns": [
+        "¿Cómo reporto que un maestro no vino?",
+        "¿Cómo reporto que un maestro no se presentó?",
+        "¿Cómo reporto que el maestro faltó?",
+        "¿Dónde reporto la falta de un profesor?",
+        "¿Dónde aviso que el docente no asistió?",
+        "¿Qué hago si mi profesor no llega?",
+        "¿Qué hacer si el maestro no se presenta?",
+        "Faltó el maestro, ¿qué hago?",
+        "El maestro no vino a clase, ¿qué hago?",
+        "¿Qué procede cuando el docente falta?",
+        "¿A quién aviso si no llegó el maestro?",
+        "Cómo reporto que un maestro no vino?",
+        "Cómo reporto que el maestro faltó?",
+        "Dónde reporto la falta de un profesor?",
+        "Dónde aviso que el docente no asistió?",
+        "Qué hago si mi profesor no llega?",
+        "Qué hacer si el maestro no se presenta?",
+        "Faltó el maestro, qué hago?",
+        "El maestro no vino a clase, qué hago?",
+        "Qué procede cuando el docente falta?",
+        "A quién aviso si no llegó el maestro?",
+        "Como reporto que un maestro no vino?",
+        "Como reporto que el maestro falto?",
+        "Donde reporto la falta de un profesor?",
+        "Donde aviso que el docente no asistio?",
+        "Que hago si mi profesor no llega?",
+        "Que hacer si el maestro no se presenta?",
+        "Falto el maestro, que hago?",
+        "El maestro no vino a clase, que hago?",
+        "Que procede cuando el docente falta?",
+        "A quien aviso si no llego el maestro?"
+      ],
+      "responses": [
+        "Reúne evidencia de la inasistencia (foto del aula, lista de alumnos presentes y hora) y acude al Departamento Académico o Servicios Escolares para llenar el **Reporte de Ausencia Docente**. El jefe de departamento registrará la incidencia y, si hay reincidencia, programará reposición de clase o asignará docente sustituto.",
+        "Puedes enviar un correo institucional al jefe de departamento indicando grupo, materia, fecha y horario."
+      ]
+    },
+    {
+      "tag": "Reportar_mala_conducta_docente",
+      "patterns": [
+        "¿Cómo reporto la mala conducta de un profesor?",
+        "¿Dónde me quejo si un maestro me faltó al respeto?",
+        "¿Cómo levanto queja por comportamiento inadecuado de docente?",
+        "¿Qué hago si el maestro grita o insulta?",
+        "¿A quién aviso si un docente me ofende?",
+        "Quiero reportar falta de respeto de un profesor",
+        "Profesor grosero, ¿cómo lo denuncio?",
+        "Cómo reporto la mala conducta de un profesor?",
+        "Dónde me quejo si un maestro me faltó al respeto?",
+        "Cómo levanto queja por comportamiento inadecuado?",
+        "Qué hago si el maestro grita o insulta?",
+        "A quién aviso si un docente me ofende?",
+        "Quiero reportar falta de respeto de un profesor?",
+        "Profesor grosero, cómo lo denuncio?",
+        "Como reporto la mala conducta de un profesor?",
+        "Donde me quejo si un maestro me falto al respeto?",
+        "Como levanto queja por comportamiento inadecuado?",
+        "Que hago si el maestro grita o insulta?",
+        "A quien aviso si un docente me ofende?",
+        "Quiero reportar falta de respeto de un profesor?",
+        "Profesor grosero, como lo denuncio?"
+      ],
+      "responses": [
+        "Redacta una queja formal dirigida al Jefe de Departamento Académico detallando la conducta (fecha, hora, testigos, evidencia). Entrégala en Servicios Escolares; se abrirá un expediente y el Comité Académico citará al docente para determinar medidas correctivas."
+      ]
+    },
+    {
+      "tag": "Reportar_acoso_docente",
+      "patterns": [
+        "¿Cómo denuncio acoso de un profesor?",
+        "¿Dónde reporto hostigamiento de un docente?",
+        "¿Puedo denunciar acoso sexual de un maestro?",
+        "¿A quién acudo si un maestro me acosa?",
+        "¿Cómo levanto una denuncia por acoso docente?",
+        "Tengo mensajes inapropiados de mi profesor, ¿qué hago?",
+        "El profesor me acosa, ayuda",
+        "Cómo denuncio acoso de un profesor?",
+        "Dónde reporto hostigamiento de un docente?",
+        "Puedo denunciar acoso sexual de un maestro?",
+        "A quién acudo si un maestro me acosa?",
+        "Cómo levanto una denuncia por acoso docente?",
+        "Tengo mensajes inapropiados de mi profesor, qué hago?",
+        "El profesor me acosa, ayuda?",
+        "Como denuncio acoso de un profesor?",
+        "Donde reporto hostigamiento de un docente?",
+        "Puedo denunciar acoso sexual de un maestro?",
+        "A quien acudo si un maestro me acosa?",
+        "Como levanto una denuncia por acoso docente?",
+        "Tengo mensajes inapropiados de mi profesor, que hago?",
+        "El profesor me acosa, ayuda?"
+      ],
+      "responses": [
+        "Puedes entregar la denuncia en Servicios Escolares; la autoridad la turnará al Comité. El proceso es confidencial y puede derivar en sanciones administrativas o penales contra el docente."
+      ]
+    },
+    {
+      "tag": "Reportar_evaluacion_injusta",
+      "patterns": [
+        "¿Cómo reclamo una calificación injusta?",
+        "¿Dónde impugno una nota mal puesta?",
+        "¿Qué hago si el profesor me calificó injustamente?",
+        "¿Cómo solicito revisión de examen?",
+        "¿Puedo apelar mi calificación final?",
+        "El maestro me puso mal la nota, ¿qué hago?",
+        "Cómo reclamo una calificación injusta?",
+        "Dónde impugno una nota mal puesta?",
+        "Qué hago si el profesor me calificó injustamente?",
+        "Cómo solicito revisión de examen?",
+        "Puedo apelar mi calificación final?",
+        "El maestro me puso mal la nota, qué hago?",
+        "Como reclamo una calificacion injusta?",
+        "Donde impugno una nota mal puesta?",
+        "Que hago si el profesor me califico injustamente?",
+        "Como solicito revision de examen?",
+        "Puedo apelar mi calificacion final?",
+        "El maestro me puso mal la nota, que hago?"
+      ],
+      "responses": [
+        "Primero solicita revisión directa con el docente dentro de los **3 días hábiles** posteriores a la publicación de la nota. Si no hay acuerdo, entrega una *Solicitud de Revisión de Evaluación* al Jefe de Departamento con copia de tu examen o evidencias."
+      ]
+    },
+    {
+      "tag": "Contacto_docente",
+      "patterns": [
+        "¿Cómo contacto a un maestro fuera del aula?",
+        "¿Cómo puedo comunicarme con mi profesor?",
+        "¿Cómo le envío correo a mi docente?",
+        "¿Dónde encuentro el correo institucional del profesor?",
+        "¿Cómo agendo asesoría con mi maestro?",
+        "Necesito hablar con un docente fuera de clase",
+        "Quiero contactar al profesor, ¿cómo le escribo?",
+        "¿Puedo contactar a mi maestro por correo?",
+        "¿Cómo contacto a mi docente?",
+        "Cómo contacto a un maestro fuera del aula?",
+        "Cómo puedo comunicarme con mi profesor?",
+        "Cómo le envío correo a mi docente?",
+        "Dónde encuentro el correo institucional del profesor?",
+        "Cómo agendo asesoría con mi maestro?",
+        "Necesito hablar con un docente fuera de clase?",
+        "Quiero contactar al profesor, cómo le escribo?",
+        "Puedo contactar a mi maestro por correo?",
+        "Cómo contacto a mi docente?",
+        "Como contacto a un maestro fuera del aula?",
+        "Como puedo comunicarme con mi profesor?",
+        "Como le envio correo a mi docente?",
+        "Donde encuentro el correo institucional del profesor?",
+        "Como agendo asesoria con mi maestro?",
+        "Necesito hablar con un docente fuera de clase?",
+        "Quiero contactar al profesor, como le escribo?",
+        "Puedo contactar a mi maestro por correo?",
+        "Como contacto a mi docente?"
+      ],
+      "responses": [
+        "Revisa el **directorio de docentes** en el Sistema Integral de Información (SII); allí aparece el correo institucional al cual podrás enviarle un corre para comunicarte con el."
       ]
     },
     {
@@ -91,7 +352,6 @@
         "Mil gracias",
         "Gracias por tu ayuda",
         "Muy amable",
-        "Gracias Sam",
         "Gracias por todo",
         "Gracias por responder",
         "Gracias por tu apoyo",
@@ -110,8 +370,6 @@
         "Te agradezco mucho",
         "Que amable eres",
         "Gracias otra vez"
-
-
       ],
       "responses": [
         "¡Con gusto!",
@@ -130,8 +388,8 @@
         "¿Cuántos puntos debo cumplir en actividades extra?",
         "cuantos creditos complementarios necesito",
         "cuántos créditos complementarios necesito",
-        "cuántos creditos complementarios necesito",
-        "cuantos créditos complementarios necesito",
+        "¿cuántos creditos complementarios necesito?",
+        "¿cuantos créditos complementarios necesito?",
         "créditos complementarios necesarios",
         "necesito créditos complementarios",
         "que tantos créditos complementarios tengo que hacer",
@@ -158,12 +416,10 @@
         "Se pueden hacer mas de 5 creditos",
         "Cuantas horas necesito hacer",
         "Cuantas actividades necesito hacer"
-
-
       ],
       "responses": [
-        "Necesitas cumplir con 5 créditos complementarios.",
-        "Debes completar el equivalente a 5 créditos en actividades complementarias.",
+        "Necesitas cumplir con 5 créditos complementarios, lo que representa 100 horas aproximadamente.",
+        "Debes completar el equivalente a 5 créditos en actividades complementarias, lo que representa 100 horas aproximadamente.",
         "El mínimo requerido es de 5 créditos complementarios, lo que representa 100 horas aproximadamente."
       ]
     },
@@ -198,14 +454,12 @@
         "Vale participar en concursos",
         "Cuenta participar en robotica",
         "Que puedo hacer como actividad extra"
-
-
       ],
       "responses": [
         "Puedes realizar actividades deportivas, culturales, cursos, congresos, servicio comunitario, o participar en investigación.",
         "Las actividades complementarias pueden ser: talleres, proyectos, deportes, cultura, cursos o tutorías.",
         "Depende de tu institución, pero normalmente deportes, cultura, cursos y eventos académicos aplican como actividades complementarias.",
-        "Tutoría, proyectos de investigación, eventos académicos, actividades deportivas y culturales, emprendedurismo, prototipos tecnológicos, fomento a la lectura y conservación del medio ambiente son ejemplos válidos.",
+        "Tutoría, proyectos de investigación, eventos académicos, actividades deportivas y culturales, prototipos tecnológicos, fomento a la lectura y conservación del medio ambiente son ejemplos válidos.",
         "Cada instituto publica su catálogo; revisa el Programa Institucional de Innovación y Desarrollo para elegir la opción que mejor se adapte a tus intereses."
       ]
     },
@@ -287,7 +541,6 @@
         "¿Cuáles son los requisitos para inscribirse?",
         "¿Cómo me doy de alta como alumno nuevo?",
         "¿Qué días es la inscripción?",
-        "¿Cuándo me toca reinscribirme?",
         "¿Dónde me inscribo?",
         "Como me registro como estudiante",
         "Que pasos debo seguir para inscribirme",
@@ -298,8 +551,6 @@
         "Que dias es la inscripcion",
         "Cuando me toca reinscribirme",
         "Donde me inscribo"
-
-
       ],
       "responses": [
         "La inscripción requiere entregar documentos, llenar formularios y pagar las cuotas correspondientes.",
@@ -404,6 +655,53 @@
       ]
     },
     {
+      "tag": "Proceso_titulacion",
+      "patterns": [
+        "¿Cómo hago mi proceso de titulación?",
+        "¿Cómo puedo iniciar mi proceso de titulación?",
+        "¿Qué pasos debo seguir para titularme?",
+        "¿Cómo me titulo en el TecNM Chihuahua II?",
+        "¿Qué necesito para la titulación integral?",
+        "¿Cómo empiezo mis trámites de titulación?",
+        "¿Dónde inicio mi proceso de titulación?",
+        "¿A quién acudo para titularme?",
+        "¿Cuándo puedo iniciar mi titulación?",
+        "¿Puedo titularme con la residencia profesional?",
+        "¿Cómo hago la titulación integral?",
+        "¿Qué requisitos hay para iniciar la titulación?",
+        "¿Cómo se tramita el título profesional?",
+        "Cómo hago mi proceso de titulación?",
+        "Cómo puedo iniciar mi proceso de titulación?",
+        "Qué pasos debo seguir para titularme?",
+        "Cómo me titulo en el TecNM Chihuahua II?",
+        "Qué necesito para la titulación integral?",
+        "Cómo empiezo mis trámites de titulación?",
+        "Dónde inicio mi proceso de titulación?",
+        "A quién acudo para titularme?",
+        "Cuándo puedo iniciar mi titulación?",
+        "Puedo titularme con la residencia profesional?",
+        "Cómo hago la titulación integral?",
+        "Qué requisitos hay para iniciar la titulación?",
+        "Cómo se tramita el título profesional?",
+        "Como hago mi proceso de titulacion?",
+        "Como puedo iniciar mi proceso de titulacion?",
+        "Que pasos debo seguir para titularme?",
+        "Como me titulo en el TecNM Chihuahua II?",
+        "Que necesito para la titulacion integral?",
+        "Como empiezo mis tramites de titulacion?",
+        "Donde inicio mi proceso de titulacion?",
+        "A quien acudo para titularme?",
+        "Cuando puedo iniciar mi titulacion?",
+        "Puedo titularme con la residencia profesional?",
+        "Como hago la titulacion integral?",
+        "Que requisitos hay para iniciar la titulacion?",
+        "Como se tramita el titulo profesional?"
+      ],
+      "responses": [
+        "Para iniciar tu proceso de **titulación integral** en el TecNM Campus Chihuahua II debes: 1) Haber cubierto el **100 % de los créditos** del plan de estudios (materias, servicio social, residencia profesional y actividades complementarias); 2) Elegir una modalidad de titulación aprobada (tesis/tesina, proyecto integrador, reporte de residencia profesional); 3) Solicitar en **Servicios Escolares** el formato *Solicitud de Titulación Integral* y entregarlo con: kárdex final, constancia de no adeudo y copia de tu acta de nacimiento; 4) Pagar los derechos de titulación en caja y anexar el recibo. Con el expediente completo, la **División de Estudios Profesionales** asigna sinodales y agenda tu acto protocolario."
+      ]
+    },
+    {
       "tag": "Movilidad estudiantil",
       "patterns": [
         "¿Qué es la movilidad estudiantil?",
@@ -431,6 +729,39 @@
         "La movilidad permite cursar materias en otra institución por uno o más semestres.",
         "Debes estar inscrito, tener buen promedio y cumplir con los requisitos del programa.",
         "Las materias que curses pueden ser revalidadas en tu plan de estudios."
+      ]
+    },
+    {
+      "tag": "Baja_temporal",
+      "patterns": [
+        "¿Cuál es el procedimiento para darme de baja temporal?",
+        "¿Cómo hago la baja temporal?",
+        "¿Qué pasos debo seguir para una baja temporal?",
+        "¿Dónde solicito la baja temporal?",
+        "¿Qué necesito para tramitar baja temporal?",
+        "¿Cómo solicito una baja temporal?",
+        "¿Cuándo puedo pedir baja temporal?",
+        "¿Cuántas veces puedo pedir baja temporal?",
+        "Cuál es el procedimiento para darme de baja temporal?",
+        "Cómo hago la baja temporal?",
+        "Qué pasos debo seguir para una baja temporal?",
+        "Dónde solicito la baja temporal?",
+        "Qué necesito para tramitar baja temporal?",
+        "Cómo solicito una baja temporal?",
+        "Cuándo puedo pedir baja temporal?",
+        "Cuántas veces puedo pedir baja temporal?",
+        "Cual es el procedimiento para darme de baja temporal?",
+        "Como hago la baja temporal?",
+        "Que pasos debo seguir para una baja temporal?",
+        "Donde solicito la baja temporal?",
+        "Que necesito para tramitar baja temporal?",
+        "Como solicito una baja temporal?",
+        "Cuando puedo pedir baja temporal?",
+        "Cuantas veces puedo pedir baja temporal?"
+      ],
+      "responses": [
+        "Para solicitar la baja temporal debes:\n1) Dirigirte al Departamento de Servicios Escolares y llenar el formato oficial de baja temporal.\n2) Presentar tu solicitud por escrito (firmada y con número de control) explicando los motivos y anexar la documentación de respaldo (por ejemplo, constancia médica o carta laboral si aplica).\n3) Entregar el trámite dentro de los primeros 30 días hábiles del semestre; el Director del plantel revisará la petición y, de procedente, emitirá la autorización.\nDurante la baja temporal se suspende tu condición de estudiante y no podrás inscribir materias ni gozar de beneficios escolares hasta que te reinscribas en el siguiente periodo autorizado.",
+        "El proceso de baja temporal consiste en: solicitar el formato en Servicios Escolares, anexar la justificación (médica, laboral o personal), entregar la documentación antes de la mitad del semestre y esperar la resolución. Con la baja temporal tu matrícula queda en pausa; para regresar solo debes reinscribirte dentro de las fechas oficiales del próximo semestre."
       ]
     },
     {
@@ -492,8 +823,6 @@
         "Que pasa si no paso una materia",
         "70 es suficiente para aprobar",
         "Me reprueban con 69"
-
-
       ],
       "responses": [
         "La calificación mínima aprobatoria en el TecNM es de 70.",
@@ -524,8 +853,6 @@
         "Cuanto cuesta una constancia",
         "Donde tramito papeles escolares",
         "Puedo pedir mi constancia por internet"
-
-
       ],
       "responses": [
         "Puedes solicitar constancias en el área de control escolar de tu plantel.",
@@ -534,32 +861,46 @@
       ]
     },
     {
-      "tag": "Cambio de carrera o campus",
+      "tag": "Cambio_de_carrera_o_campus",
       "patterns": [
-        "¿Puedo cambiarme de carrera?",
-        "¿Qué necesito para cambiarme de carrera?",
-        "¿Es posible cambiar de campus dentro del TecNM?",
-        "¿Qué debo hacer si quiero estudiar otra carrera?",
-        "¿Se puede hacer cambio interno de carrera?",
-        "¿Puedo cambiar de carrera después del primer semestre?",
-        "¿Me puedo cambiar de campus a otro estado?",
-        "¿Cómo hago un cambio de programa educativo?",
-        "¿Se puede hacer cambio de carrera dentro del mismo instituto?",
-        "¿Puedo solicitar cambio de plantel?",
-        "¿A quién le pido cambio de carrera?",
-        "Puedo cambiar de carrera despues del primer semestre",
-        "Me puedo cambiar de campus a otro estado",
-        "Como hago un cambio de programa educativo",
-        "Se puede hacer cambio de carrera dentro del mismo instituto",
-        "Puedo solicitar cambio de plantel",
-        "A quien le pido cambio de carrera"
-
-
+        "¿Puedo cambiar de carrera?",
+        "¿Me puedo cambiar de carrera?",
+        "¿Se puede cambiar de carrera?",
+        "¿Cómo puedo cambiar de carrera?",
+        "¿Cuál es el procedimiento para cambiar de carrera?",
+        "¿Quiero cambiar de carrera, qué hago?",
+        "¿Puedo solicitar un cambio de carrera?",
+        "¿Puedo cambiar de carrera después de un semestre?",
+        "¿Puedo cambiar de carrera después del primer año?",
+        "¿Se puede cambiar de carrera interna?",
+        "¿Puedo cambiar de programa educativo?",
+        "Puedo cambiar de carrera?",
+        "Me puedo cambiar de carrera?",
+        "Se puede cambiar de carrera?",
+        "Cómo puedo cambiar de carrera?",
+        "Cuál es el procedimiento para cambiar de carrera?",
+        "Quiero cambiar de carrera, qué hago?",
+        "Puedo solicitar un cambio de carrera?",
+        "Puedo cambiar de carrera después de un semestre?",
+        "Puedo cambiar de carrera después del primer año?",
+        "Se puede cambiar de carrera interna?",
+        "Puedo cambiar de programa educativo?",
+        "Puedo cambiar de carrera?",
+        "Me puedo cambiar de carrera?",
+        "Se puede cambiar de carrera?",
+        "Como puedo cambiar de carrera?",
+        "Cual es el procedimiento para cambiar de carrera?",
+        "Quiero cambiar de carrera, que hago?",
+        "Puedo solicitar un cambio de carrera?",
+        "Puedo cambiar de carrera despues de un semestre?",
+        "Puedo cambiar de carrera despues del primer año?",
+        "Se puede cambiar de carrera interna?",
+        "Puedo cambiar de programa educativo?"
       ],
       "responses": [
-        "Sí, puedes cambiarte de carrera o campus, pero debes cumplir con ciertos requisitos académicos y administrativos.",
-        "Debes solicitar el cambio en control escolar y presentar una justificación.",
-        "Consulta los lineamientos y fechas disponibles en tu plantel."
+        "Sí, es posible cambiar de carrera (o de campus) dentro del TecNM. Debes presentar una solicitud formal ante el Departamento de Servicios Escolares dentro de los primeros 30 días hábiles del semestre, adjuntando: 1) carta de motivos, 2) historial académico (sin adeudos), 3) kárdex con promedio mínimo de 8.0 y 4) no más del 30 % de créditos cursados en la carrera actual.",
+        "El Comité Académico revisa tu solicitud, analiza compatibilidad de planes de estudio y emite dictamen. Si se aprueba, se te entregará una constancia de no inconveniencia y tu expediente pasará al nuevo programa/campus. Las materias afines podrán convalidarse mediante dictamen de equivalencia.",
+        "Recuerda que el cambio solo se autoriza una vez por trayectoria académica y está sujeto a cupo disponible en la carrera destino. Consulta fechas y requisitos específicos en el Lineamiento de Traslado Estudiantil y Cambio de Programa Educativo de tu plantel."
       ]
     },
     {
@@ -581,8 +922,6 @@
         "Que numero uso para acceder al sistema",
         "Donde esta mi numero de control",
         "Como recupero mi numero si lo perdi"
-
-
       ],
       "responses": [
         "Tu número de control es tu matrícula, y se usa para identificarte en todos los procesos escolares.",
@@ -612,8 +951,6 @@
         "Cuando son los examenes finales",
         "Cuando hay suspension de clases",
         "Donde consulto el calendario academico"
-
-
       ],
       "responses": [
         "El calendario escolar se publica en la página oficial del TecNM y de tu plantel.",
@@ -641,8 +978,6 @@
         "Quien me da el horario",
         "Como se mis materias del semestre",
         "Donde aparece el horario de materias"
-
-
       ],
       "responses": [
         "El horario se asigna al momento de la reinscripción y puedes consultarlo en tu sistema escolar.",
@@ -651,36 +986,38 @@
       ]
     },
     {
-      "tag": "Servicio médico",
+      "tag": "Recursar_materia",
       "patterns": [
-        "¿El TecNM ofrece servicio médico?",
-        "¿Puedo atenderme en el instituto si me siento mal?",
-        "¿Dónde está el consultorio médico?",
-        "¿Hay médico en el campus?",
-        "¿Qué hago si me enfermo en clase?",
-        "¿Hay atención médica en la escuela?",
-        "¿Qué hago si me siento mal en clases?",
-        "¿A quién aviso si me duele algo?",
-        "¿Puedo ir al doctor en la escuela?",
-        "¿Tienen primeros auxilios en el campus?",
-        "¿Dónde está el servicio médico?",
-        "Hay atencion medica en la escuela",
-        "Que hago si me siento mal en clases",
-        "A quien aviso si me duele algo",
-        "Puedo ir al doctor en la escuela",
-        "Tienen primeros auxilios en el campus",
-        "Donde esta el servicio medico"
-
-
+        "¿Cuántas veces puedo recursar una materia?",
+        "¿Cuántas veces se puede recursar una materia?",
+        "¿Cuántas oportunidades tengo para recursar una materia?",
+        "¿Cuántas veces puedo repetir una materia?",
+        "¿Puedo cursar tres veces la misma materia?",
+        "¿Cuál es el límite para recursar una asignatura?",
+        "Cuántas veces puedo recursar una materia?",
+        "Cuántas veces se puede recursar una materia?",
+        "Cuántas oportunidades tengo para recursar una materia?",
+        "Cuántas veces puedo repetir una materia?",
+        "Puedo cursar tres veces la misma materia?",
+        "Cuál es el límite para recursar una asignatura?",
+        "Cuantas veces puedo recursar una materia?",
+        "Cuantas veces se puede recursar una materia?",
+        "Cuantas oportunidades tengo para recursar una materia?",
+        "Cuantas veces puedo repetir una materia?",
+        "Puedo cursar tres veces la misma materia?",
+        "Cual es el limite para recursar una asignatura?"
       ],
       "responses": [
-        "Sí, la mayoría de los planteles del TecNM tienen servicio médico básico.",
-        "Puedes acudir al consultorio dentro del campus durante el horario establecido.",
-        "Si te sientes mal, informa a tu profesor y acude con el personal médico del instituto."
+        "El reglamento académico del TecNM establece que puedes cursar una misma asignatura **hasta tres veces**. Si no la acreditas en el tercer intento, se considera agotada la oportunidad y procede la baja definitiva o el cambio de carrera conforme a las disposiciones vigentes.",
+        "En total dispones de tres oportunidades de acreditación: tu cursada ordinaria y hasta dos recursamientos adicionales. Después del tercer intento sin acreditar, el plantel debe aplicar las medidas académicas correspondientes (baja o reubicación)."
       ]
     },
+
+
+
+
     {
-      "tag": "Carreras ofertadas",
+      "tag": "Carreras_ofertadas",
       "patterns": [
         "¿Qué carreras hay en la escuela?",
         "¿Qué puedo estudiar en el TecNM?",
@@ -702,7 +1039,6 @@
         "¿Tienen ingeniería en diseño industrial?",
         "¿Tienen gestión empresarial?",
         "¿Tienen ingeniería industrial?",
-        "¿Qué carreras técnicas hay?",
         "¿Qué ingenierías hay?",
         "¿Qué carreras puedo escoger?",
         "¿Qué programas académicos hay?",
@@ -718,6 +1054,27 @@
         "¿Qué carreras están disponibles para nuevo ingreso?",
         "¿Cuántas carreras hay?",
         "¿Me puedes decir qué carreras hay?",
+        "¿Cuáles son las materias que hay?",
+        "¿Qué materias hay?",
+        "Cuáles son las materias que hay?",
+        "Cuantas carreras hay?",
+        "Que carreras hay en el tecnologico?",
+        "Que puedo estudiar en el TecNM?",
+        "Que ingenierias tienen?",
+        "Que licenciaturas hay?",
+        "Que opciones academicas ofrece el instituto?",
+        "Opciones de estudio en el TecNM?",
+        "Que materias hay?"
+      ],
+      "responses": [
+        "Las carreras que ofrece el TecNM campus Chihuahua II son: Ingeniería Industrial, Ingeniería en Diseño Industrial, Ingeniería en Sistemas Computacionales, Ingeniería en Ciberseguridad, Ingeniería en Gestión Empresarial, Licenciatura en Administración y Arquitectura.",
+        "Actualmente puedes estudiar 6 ingenierías y 1 licenciatura: Industrial, Diseño Industrial, Sistemas Computacionales, Ciberseguridad, Gestión Empresarial, Administración (licenciatura) y Arquitectura.",
+        "Si buscas la lista completa de opciones académicas, el TecNM ofrece: Ingeniería Industrial, Ingeniería en Diseño Industrial, Ingeniería en Sistemas Computacionales, Ingeniería en Ciberseguridad, Ingeniería en Gestión Empresarial, Licenciatura en Administración y el programa de Arquitectura."
+      ]
+    },
+    {
+      "tag": "Duracion_carreras",
+      "patterns": [
         "¿Qué duración tienen las carreras?",
         "¿Cuántos semestres dura cada carrera?",
         "Duración de las ingenierías en el TecNM",
@@ -731,13 +1088,31 @@
         "¿Cuánto dura cada carrera?",
         "¿Cuál es la duración de las carreras?",
         "¿Cuántos años son en la carrera de arquitectura?",
-        "¿Cuánto tiempo toma terminar arquitectura?"
+        "¿Cuánto tiempo toma terminar arquitectura?",
+        "Que duración tienen las carreras?",
+        "Cuántos semestres dura cada carrera?",
+        "Cuanto dura la carrera de Ingenieria en Sistemas?",
+        "Cuanto dura cada carrera?",
+        "Cual es la duración de las carreras?",
+        "Cuantos años son de Ingenieria Industrial?",
+        "Que duracion tienen las carreras?",
+        "Cuantos semestres dura cada carrera?",
+        "Duracion de las ingenierias en el TecNM?",
+        "Cuantos semestres son en arquitectura?",
+        "Cuanto dura la carrera de Ingenieria en Sistemas?",
+        "Cuanto dura la carrera de Diseno Industrial?",
+        "Cuanto tiempo se estudia Ingenieria Informatica?",
+        "Cuanto tiempo dura Licenciatura en Administracion?",
+        "Cuantos anos son de Ingenieria Industrial?",
+        "Cuantos anos dura la carrera de Gestion Empresarial?",
+        "Cuanto dura cada carrera?",
+        "Cual es la duracion de las carreras?",
+        "Cuantos anos son en la carrera de arquitectura?",
+        "Cuanto tiempo toma terminar arquitectura?"
       ],
       "responses": [
-        "Las carreras que ofrece el TecNM son: Ingeniería Industrial, Ingeniería en Diseño Industrial, Ingeniería en Sistemas Computacionales, Ingeniería Informática, Ingeniería en Gestión Empresarial, Licenciatura en Administración y Arquitectura.",
-        "Puedes estudiar alguna de estas carreras: Ingeniería Industrial, Diseño Industrial, Sistemas Computacionales, Informática, Gestión Empresarial, Administración y Arquitectura.",
-        "Todas las carreras tienen una duración de 9 semestres, excepto Arquitectura que tiene 10.",
-        "En el TecNM puedes cursar 6 ingenierías y una licenciatura. Arquitectura es la única que dura 10 semestres; las demás tienen 9."
+        "La mayoría de las ingenierías del TecNM (Industrial, Diseño Industrial, Sistemas Computacionales, Ciberseguridad, Gestión Empresarial) y la Licenciatura en Administración tienen una duración de **9 semestres** (4 años y medio). La carrera de Arquitectura dura **10 semestres** (5 años).",
+        "En términos de años: las ingenierías y la licenciatura se completan normalmente en 4 años y medio; Arquitectura requiere 5 años. Cada semestre contiene aproximadamente 18 semanas de clases más periodos de exámenes."
       ]
     },
     {
@@ -759,6 +1134,40 @@
       ]
     },
     {
+      "tag": "Promedio_minimo_beca",
+      "patterns": [
+        "¿Cuál es el promedio mínimo para no perder beca?",
+        "¿Cuál es el promedio mínimo para conservar la beca?",
+        "¿Qué promedio necesito para mantener mi beca?",
+        "¿Cuánto promedio debo tener para seguir con la beca?",
+        "¿Promedio mínimo beca?",
+        "¿Cuánto promedio piden para beca?",
+        "¿Cuál es el promedio mínimo para renovar beca?",
+        "¿Puedo conservar la beca con 7.5 de promedio?",
+        "Cuál es el promedio mínimo para no perder beca?",
+        "Cuál es el promedio mínimo para conservar la beca?",
+        "Qué promedio necesito para mantener mi beca?",
+        "Cuánto promedio debo tener para seguir con la beca?",
+        "Promedio mínimo beca?",
+        "Cuánto promedio piden para beca?",
+        "Cuál es el promedio mínimo para renovar beca?",
+        "Puedo conservar la beca con 7.5 de promedio?",
+        "Cual es el promedio minimo para no perder beca?",
+        "Cual es el promedio minimo para conservar la beca?",
+        "Que promedio necesito para mantener mi beca?",
+        "Cuanto promedio debo tener para seguir con la beca?",
+        "Promedio minimo beca?",
+        "Cuanto promedio piden para beca?",
+        "Cual es el promedio minimo para renovar beca?",
+        "Puedo conservar la beca con 7.5 de promedio?"
+      ],
+      "responses": [
+        "Para la mayoría de los programas de becas internas del TecNM debes conservar un promedio mínimo de **80/100 (8.0)** sin materias reprobadas en el semestre. Si bajas de ese promedio o repruebas una asignatura, el plantel puede suspender la beca.",
+        "Mantén un promedio general igual o superior a 8.0 (sin adeudo de materias) para conservar las becas institucionales. Algunos apoyos externos pueden exigir un promedio más alto, así que revisa los lineamientos específicos de tu convocatoria.",
+        "En términos generales, el TecNM solicita que el estudiante becado mantenga al menos **8.0** de promedio y ninguna materia reprobada para renovar su apoyo en cada semestre."
+      ]
+    },
+    {
       "tag": "revalidacion_materias",
       "patterns": [
         "Puedo revalidar materias de otra escuela",
@@ -770,8 +1179,7 @@
       ],
       "responses": [
         "La revalidacion de materias se realiza a traves del Departamento de Servicios Escolares, presentando la documentacion necesaria.",
-        "Debes solicitar la revalidacion dentro de los primeros 15 dias habiles del semestre, segun el reglamento del TecNM.",
-        "El tramite puede tardar varias semanas, dependiendo de la evaluacion de los contenidos y creditos de las materias."
+        "Debes solicitar la revalidacion dentro de los primeros 15 dias habiles del semestre, segun el reglamento del TecNM."
       ]
     },
     {
@@ -791,19 +1199,121 @@
       ]
     },
     {
-      "tag": "plataformas_escolares",
+      "tag": "Acceso_SII",
       "patterns": [
-        "Como entro a la plataforma",
-        "Que es el sistema SII",
-        "No puedo entrar a mi cuenta escolar",
-        "Se me olvido mi contrasena del SII",
-        "Donde veo mis calificaciones",
-        "La plataforma no carga"
+        "¿Cómo entro al sistema SII?",
+        "¿Cómo entro a la plataforma?",
+        "¿Cómo accedo al SII?",
+        "¿Cómo iniciar sesión en el SII?",
+        "¿Dónde ingreso al SII?",
+        "¿Qué necesito para entrar al SII?",
+        "¿Cómo entro al SII con mi matrícula?",
+        "Cómo entro al sistema SII?",
+        "Cómo entro a la plataforma?",
+        "Cómo accedo al SII?",
+        "Cómo iniciar sesión en el SII?",
+        "Dónde ingreso al SII?",
+        "Qué necesito para entrar al SII?",
+        "Cómo entro al SII con mi matrícula?",
+        "Como entro al sistema SII?",
+        "Como entro a la plataforma?",
+        "Como accedo al SII?",
+        "Como iniciar sesión en el SII?",
+        "Donde ingreso al SII?",
+        "Que necesito para entrar al SII?",
+        "Como entro al SII con mi matricula?"
       ],
       "responses": [
-        "El Sistema Integral de Informacion (SII) es la plataforma donde puedes consultar tus calificaciones, horarios y mas.",
-        "Si tienes problemas para acceder, puedes contactar al Departamento de Servicios Escolares o al soporte tecnico.",
-        "Recuerda que tu usuario y contrasena son proporcionados al momento de tu inscripcion."
+        "Entra a **sii.chihuahua2.tecnm.mx** y selecciona *Estudiantes > Iniciar sesión*. Ingresa tu **matrícula** como usuario y tu **contraseña** asignada al inscribirte."
+      ]
+    },
+    {
+      "tag": "Recuperar_contrasena_SII",
+      "patterns": [
+        "¿Se me olvidó mi contraseña del SII?",
+        "¿Cómo recupero mi contraseña del SII?",
+        "¿Cómo restablezco mi clave del SII?",
+        "¿Olvidé mi password del SII?",
+        "¿Dónde puedo resetear mi contraseña del SII?",
+        "Contraseña olvidada SII",
+        "Se me olvidó mi contraseña del SII?",
+        "Cómo recupero mi contraseña del SII?",
+        "Cómo restablezco mi clave del SII?",
+        "Olvidé mi password del SII?",
+        "Dónde puedo resetear mi contraseña del SII?",
+        "Contraseña olvidada SII?",
+        "Se me olvido mi contrasena del SII?",
+        "Como recupero mi contrasena del SII?",
+        "Como restablezco mi clave del SII?",
+        "Olvide mi password del SII?",
+        "Donde puedo resetear mi contrasena del SII?",
+        "Contrasena olvidada SII?"
+      ],
+      "responses": [
+        "Dirijete a la sala de comunicaciones y hablar con el encargado para poder recuperar tu contraseña"
+      ]
+    },
+    {
+      "tag": "Consultar_calificaciones",
+      "patterns": [
+        "¿Dónde consulto mis calificaciones en línea?",
+        "¿Dónde veo mis calificaciones?",
+        "¿Cómo consulto mis calificaciones en línea?",
+        "¿Cómo veo mis calificaciones?",
+        "¿Dónde puedo ver mis calificaciones?",
+        "¿Cómo checar mis calificaciones?",
+        "¿Dónde checo mis calificaciones?",
+        "¿Dónde reviso mis calificaciones?",
+        "Consultar calificaciones en línea",
+        "Dónde consulto mis calificaciones en línea?",
+        "Dónde veo mis calificaciones?",
+        "Cómo consulto mis calificaciones en línea?",
+        "Cómo veo mis calificaciones?",
+        "Dónde puedo ver mis calificaciones?",
+        "Cómo checar mis calificaciones?",
+        "Dónde checo mis calificaciones?",
+        "Dónde reviso mis calificaciones?",
+        "Donde consulto mis calificaciones en linea?",
+        "Donde veo mis calificaciones?",
+        "Como consulto mis calificaciones en linea?",
+        "Como veo mis calificaciones?",
+        "Donde puedo ver mis calificaciones?",
+        "Como checar mis calificaciones?",
+        "Donde checo mis calificaciones?",
+        "Donde reviso mis calificaciones?"
+      ],
+      "responses": [
+        "Ingresa al **SII** (sii.chihuahua2.tecnm.mx) con tu matrícula y contraseña; en el menú elige **Kárdex / Calificaciones** para ver tus parciales y finales."
+      ]
+    },
+
+
+    {
+      "tag": "Carga_academica",
+      "patterns": [
+        "¿Dónde puedo ver mi carga académica?",
+        "¿Dónde veo mi carga académica?",
+        "¿Cómo consulto mi carga académica?",
+        "¿Cómo veo mi carga académica?",
+        "¿Dónde checo mi carga académica?",
+        "¿Dónde reviso mi carga académica?",
+        "Dónde puedo ver mi carga académica?",
+        "Dónde veo mi carga académica?",
+        "Cómo consulto mi carga académica?",
+        "Cómo veo mi carga académica?",
+        "Dónde checo mi carga académica?",
+        "Dónde reviso mi carga académica?",
+        "Donde puedo ver mi carga academica?",
+        "Donde veo mi carga academica?",
+        "Como consulto mi carga academica?",
+        "Como veo mi carga academica?",
+        "Donde checo mi carga academica?",
+        "Donde reviso mi carga academica?"
+      ],
+      "responses": [
+        "Para ver tu carga académica ingresa al Sistema Integral de Información (SII) con tu matrícula y contraseña. Una vez dentro, selecciona la opción **Kárdex/Carga académica** o **Horario**, donde aparece la lista de asignaturas inscritas en el semestre.",
+        "Tu carga académica está disponible en el SII. Si el sistema no carga, verifica conexión o comunícate con Servicios Escolares para confirmar tus materias y obtener un reporte impreso.",
+        "También puedes pedir a Servicios Escolares un historial impreso de tu carga académica si tienes problemas de acceso al SII."
       ]
     },
     {
@@ -818,7 +1328,7 @@
       ],
       "responses": [
         "Las practicas profesionales son obligatorias y forman parte de tu plan de estudios.",
-        "Debes cumplir con un minimo de 240 horas en una empresa o institucion relacionada con tu carrera.",
+        "Debes cumplir con un minimo de 500 horas en una empresa o institucion relacionada con tu carrera.",
         "Para mas informacion, acude al Departamento de Gestion Tecnologica y Vinculacion."
       ]
     },

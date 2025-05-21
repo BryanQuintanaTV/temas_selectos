@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6611e5-5091-4c0d-8997-a805d089a0be" name="Changes" comment="Added Tokenizer">
-      <change beforePath="$PROJECT_DIR$/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/intentsV3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/temas_selectos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/temas_selectos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/intents.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/intents.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.chat (1).executor": "Run",
-    "Python.chat (2).executor": "Run",
-    "Python.chat.executor": "Run",
-    "Python.nltk_utils.executor": "Run",
-    "Python.train (1).executor": "Run",
-    "Python.train.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/bryan/OneDrive/Desktop/School/Eight_semester/temas_selectos_desarrollo_sw/chatbot/temas_selectos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.chat (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nltk_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bryan/OneDrive/Desktop/School/Eight_semester/temas_selectos_desarrollo_sw/chatbot/temas_selectos/dataset&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bryan\OneDrive\Desktop\School\Eight_semester\temas_selectos_desarrollo_sw\chatbot\temas_selectos\dataset" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bryan\OneDrive\Desktop\School\Eight_semester\temas_selectos_desarrollo_sw\chatbot\temas_selectos\dataset" />
       <recent name="C:\Users\bryan\OneDrive\Desktop\School\Eight_semester\temas_selectos_desarrollo_sw\chatbot\temas_selectos\chatbot_back" />
@@ -266,7 +273,11 @@
       <workItem from="1746724183570" duration="2039000" />
       <workItem from="1746727395282" duration="6037000" />
       <workItem from="1746758272152" duration="3741000" />
-      <workItem from="1746797344879" duration="5006000" />
+      <workItem from="1746797344879" duration="6922000" />
+      <workItem from="1747685739827" duration="2502000" />
+      <workItem from="1747725803905" duration="2782000" />
+      <workItem from="1747769341676" duration="3418000" />
+      <workItem from="1747847651221" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tokenizer">
       <option name="closed" value="true" />
