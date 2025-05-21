@@ -1066,7 +1066,7 @@
         "Que materias hay?"
       ],
       "responses": [
-        "Las carreras que ofrece el **TecNM campus Chihuahua II** son: {space}{space} - Ingeniería Industrial. {space}{space} - Ingeniería en Diseño Industrial. {space}{space} - Ingeniería en Sistemas Computacionales. {space}{space} - Ingeniería en Ciberseguridad. {space}{space} - Ingeniería en Gestión Empresarial. {space}{space} - Licenciatura en Administración y Arquitectura."
+        "Las carreras que ofrece el **TecNM campus Chihuahua II** son:  \n - Ingeniería Industrial.  \n - Ingeniería en Diseño Industrial.  \n - Ingeniería en Sistemas Computacionales.  \n - Ingeniería en Ciberseguridad.  \n - Ingeniería en Gestión Empresarial.  \n - Licenciatura en Administración y Arquitectura."
       ]
     },
     {
