@@ -1066,7 +1066,7 @@
         "Que materias hay?"
       ],
       "responses": [
-        "Las carreras que ofrece el **TecNM campus Chihuahua II** son: <br> - Ingeniería Industrial. <br> - Ingeniería en Diseño Industrial. <br> - Ingeniería en Sistemas Computacionales. <br> - Ingeniería en Ciberseguridad. <br> - Ingeniería en Gestión Empresarial. <br> - Licenciatura en Administración y Arquitectura."
+        "Las carreras que ofrece el **TecNM campus Chihuahua II** son: {space}{space} - Ingeniería Industrial. {space}{space} - Ingeniería en Diseño Industrial. {space}{space} - Ingeniería en Sistemas Computacionales. {space}{space} - Ingeniería en Ciberseguridad. {space}{space} - Ingeniería en Gestión Empresarial. {space}{space} - Licenciatura en Administración y Arquitectura."
       ]
     },
     {
@@ -1280,7 +1280,7 @@
         "Donde reviso mis calificaciones?"
       ],
       "responses": [
-        "Ingresa al [**SII**](htps://sii.chihuahua2.tecnm.mx) con tu matrícula y contraseña; en el menú elige **Información Escolar / Boleta de calificaciones** o **Kardex De Calificaciones** para ver tus calificaciones."
+        "Ingresa al [SII](htps://sii.chihuahua2.tecnm.mx) con tu matrícula y contraseña; en el menú elige **Información Escolar / Boleta de calificaciones** o **Kardex De Calificaciones** para ver tus calificaciones."
       ]
     },
 
